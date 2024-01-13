@@ -4,10 +4,17 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Yan Lin's Scholar Page</title>
+    <title id="html-title"></title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <script src="data.js"></script>
 
     <style>
     </style>
@@ -18,7 +25,7 @@
         <nav class="navbar fixed-top bg-body-tertiary navbar-expand-lg">
             <div class="container">
                 <a href="./index.html" class="navbar-brand mb-0 h1">
-                    <span class="fs-4">Yan Lin's Scholar Page</span>
+                    <span class="fs-4" id="page-title"></span>
                 </a>
 
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -69,64 +76,14 @@
                 <div class="card shadow-sm">
                     <div class="row g-0">
                         <div class="col-md-3 d-flex">
-                            <img src="img/yanlin.png" class="img-fluid rounded object-fit-cover" alt="Photo">
+                            <img src="assets/yanlin.png" class="img-fluid rounded object-fit-cover" alt="Photo">
                         </div>
 
-                        <div class="card-body col-md-9 d-flex flex-column">
+                        <div class="card-body col-md-9 d-flex flex-column" id="profile-card">
                             <h4 class="card-title mb-3">Profile</h4>
-
-                            <p class="card-text">
-                                I received the B.S. degree in computer science from Beijing Jiaotong University,
-                                Beijing, China, in 2019.
-                            </p>
-                            <p class="card-text">
-                                I am currently working toward the Ph.D. degree in the School of Computer and
-                                Information Technology, Beijing Jiaotong University. My research interests include
-                                spatio-temporal data mining and representation learning.
-                            </p>
-
-                            <small class="card-text text-body-secondary mt-auto">
-                                <i class="bi bi-geo-alt"></i>
-                                Beijing Jiaotong University, Haidian District, Beijing 100044, China
-                            </small>
-                            <small class="card-text text-body-secondary">
-                                <i class="bi bi-geo-alt"></i>
-                                Aalborg University, 9220 Aalborg East, Denmark
-                            </small>
-                            <small class="card-text text-body-secondary">
-                                <i class="bi bi-translate"></i>
-                                Score Reading 26, Listening 29, Speaking 19, Writing 24 in TOFEL iBT'18
-                            </small>
-
-                            <div class="mt-auto">
-                                <a href="mailto:ylincs@bjtu.edu.cn" class="btn btn-light mt-2 me-1">
-                                    <i class="bi bi-envelope"></i>
-                                    Email
-                                </a>
-                                <a href="https://github.com/Logan-Lin" class="btn btn-light mt-2 me-1" target="_blank">
-                                    <i class="bi bi-github"></i>
-                                    GitHub
-                                </a>
-                                <a href="https://scholar.google.com/citations?user=nHMmG2UAAAAJ"
-                                    class="btn btn-light mt-2 me-1" target="_blank">
-                                    <i class="bi bi-google"></i>
-                                    Scholar
-                                </a>
-                                <a href="https://steamcommunity.com/profiles/76561198241353020/"
-                                    class="btn btn-light mt-2 me-1" target="_blank">
-                                    <i class="bi bi-steam"></i>
-                                    Steam
-                                </a>
-                                <a href="https://bgm.tv/user/logan_lin" class="btn btn-light mt-2 me-1" target="_blank">
-                                    <i class="bi bi-play-circle"></i>
-                                    Bangumi
-                                </a>
-                                <a href="https://space.bilibili.com/2480785" class="btn btn-light mt-2 me-1"
-                                    target="_blank">
-                                    <i class="bi bi-play-btn"></i>
-                                    Bilibili
-                                </a>
-                            </div>
+                            <div id="bio"></div>
+                            <div id="footnote" class="mt-auto"></div>
+                            <div class="mt-auto" id="link"></div>
                         </div>
                     </div>
                 </div>
@@ -136,78 +93,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title mb-3">Projects</h4>
-
-                        <div class="list-group">
-                            <a class="list-group-item list-group-item-action" href="https://overleafcopilot.github.io/"
-                                target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h6 class="my-1">Overleaf Copilot: A comprehensive scholar writing copilot for
-                                        Overleaf</h6>
-                                    <small class="text-body-secondary">Oct'23 - Present</small>
-                                </div>
-                                <p class="my-1">Powered by Large Language Models, OverleafCopilot is a plugin designed
-                                    to elevate the academic writing experience on Overleaf.</p>
-                            </a>
-                            <a class="list-group-item list-group-item-action" href="https://www.promptgenius.site/"
-                                target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h6 class="my-1">Prompt Genius: Prompt Library for AI ChatBots</h6>
-                                    <small class="text-body-secondary">Feb'23 - Present</small>
-                                </div>
-                                <p class="my-1">
-                                    All-purpose prompts with hierarchical classification system and multi-language
-                                    support.
-                                    Help users discover functions of NLP ChatBots like ChatGPT. <br>
-                                    Build the web application with Flask and HTML. Also build a corresponding management
-                                    system with Electron.
-                                </p>
-                            </a>
-                            <a class="list-group-item list-group-item-action" href="http://demo.insis.com.cn:8200/"
-                                target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h6 class="my-1">Spatial-temporal Traffic Big Data Mining Platform</h6>
-                                    <small class="text-body-secondary">Jan'21 - Present</small>
-                                </div>
-                                <p class="my-1">
-                                    Designed an integrated platform for lubricating the process of spatial-temporal
-                                    traffic big data mining, including data pre-processing, storing and prediction.<br>
-                                    Implemented the platform based on Kafka, Spark and HBase to achieve real-time
-                                    processing on large-scale spatial-temporal traffic data. Paired with an interactive
-                                    GUI for intuitive data analysis.
-                                </p>
-                                <small class="text-body-secondary">Advisor: Prof. Huaiyu Wan, Prof. Youfang Lin</small>
-                            </a>
-                            <a class="list-group-item" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h6 class="my-1">Dynamic Prediction Algorithm of Airline Catering Backup Quantity
-                                    </h6>
-                                    <small class="text-body-secondary">Dec'20 - Present</small>
-                                </div>
-                                <p class="my-1">
-                                    Worked on predicting the airline catering backup quantity to help airline companies
-                                    reduce economic and productivity losses.<br>
-                                    Guide teammates to design a hierarchical RNN for modeling the correlation between
-                                    prediction targets and long-range historical records.
-                                </p>
-                                <small class="text-body-secondary">Advisor: Prof. Huaiyu Wan</small>
-                            </a>
-                            <a class="list-group-item list-group-item-action" href="http://demo.insis.com.cn:8202/"
-                                target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <h6 class="my-1">Highway Toll Rate Optimization System Based on Traffic Big Data
-                                    </h6>
-                                    <small class="text-body-secondary">Jan'20 - Dec'20</small>
-                                </div>
-                                <p class="my-1">
-                                    Designed a traffic flow simulation system based on historical traffic trajectories
-                                    and optimal cost algorithm. Aims to help urban managers balance highway toll station
-                                    income and traffic flow. <br>
-                                    Suggestion for the toll rate of Nansha Bridge accepted by Road Network Center of the
-                                    Ministry of Transport, China. One related patent applied and is under audit.
-                                </p>
-                                <small class="text-body-secondary">Advisor: Prof. Huaiyu Wan, Prof. Youfang Lin</small>
-                            </a>
-                        </div>
+                        <div id="project-cards" class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-3" data-masonry='{"percentPosition": true }'></div>
                     </div>
                 </div>
             </div>
@@ -216,130 +102,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title mb-3">Publications</h4>
-
-                        <div class="list-group">
-                            <a class="list-group-item list-group-item-action" href="https://github.com/Logan-Lin/DOT"
-                                target="_blank">
-                                <p class="my-1">
-                                    Origin-Destination Travel Time Oracle for Map-based Services
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        <strong>Yan Lin</strong>, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang,
-                                        Christian S. Jensen,
-                                        Youfang Lin
-                                    </small>
-                                    <small class="text-body-secondary">SIGMOD'24</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action" href="https://arxiv.org/abs/2207.14539"
-                                target="_blank">
-                                <p class="my-1">
-                                    Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        <strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S.
-                                        Jensen, Youfang Lin
-                                    </small>
-                                    <small class="text-body-secondary">TKDE'23</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://ojs.aaai.org/index.php/AAAI/article/view/16548" target="_blank">
-                                <p class="my-1">
-                                    Pre-training Context and Time Aware Location Embeddings from Spatial-Temporal
-                                    Trajectories for User Next Location Prediction
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        <strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Youfang Lin
-                                    </small>
-                                    <small class="text-body-secondary">AAAI'21</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://ieeexplore.ieee.org/abstract/document/9351627/" target="_blank">
-                                <p class="my-1">
-                                    Pre-training Time-Aware Location Embeddings from Spatial-Temporal Trajectories
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">Huaiyu Wan, <strong>Yan Lin</strong>, Shengnan
-                                        Guo, Youfang
-                                        Lin</small>
-                                    <small class="text-body-secondary">TKDE'21</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action">
-                                <p class="my-1">
-                                    Inductive and Adaptive Graph Convolution Networks Equipped with Constraint Task for
-                                    Spatial-Temporal Traffic Data Kriging
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">Tonglong Wei, Youfang Lin, Shengnan Guo,
-                                        <strong>Yan Lin</strong>,
-                                        Yiji Zhao, Xiyuan Jin, Zhihao Wu, Huaiyu Wan</small>
-                                    <small class="text-body-secondary">KBS'23</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://openreview.net/forum?id=y08bkEtNBK" target="_blank">
-                                <p class="my-1">
-                                    WITRAN: Water-wave Information Transmission and Recurrent Acceleration Network for
-                                    Long-range Time Series Forecasting
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        Yuxin Jia, Youfang Lin, Xinyan Hao, <strong>Yan Lin</strong>, Shengnan Guo,
-                                        Huaiyu Wan
-                                    </small>
-                                    <small class="text-body-secondary">NeurIPS'23</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://ojs.aaai.org/index.php/AAAI/article/view/25546" target="_blank">
-                                <p class="my-1">
-                                    Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence
-                                    Representation Learning
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        Letian Gong, Youfang Lin, Shengnan Guo, <strong>Yan Lin</strong>, Tianyi Wang,
-                                        Erwen Zheng, Zeyu
-                                        Zhou, Huaiyu Wan
-                                    </small>
-                                    <small class="text-body-secondary">AAAI'23</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
-                                target="_blank">
-                                <p class="my-1">
-                                    Adversarial self-attentive time-variant neural networks for multi-step time series
-                                    forecasting
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan
-                                    </small>
-                                    <small class="text-body-secondary">Expert Systems with Applications</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
-                                target="_blank">
-                                <p class="my-1">
-                                    Multi-scale adaptive attention-based time-variant neural networks for
-                                    multi-step time series forecasting
-                                </p>
-                                <div class="d-flex w-100 justify-content-between">
-                                    <small class="text-body-secondary">
-                                        Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan
-                                    </small>
-                                    <small class="text-body-secondary">Applied Intelligence</small>
-                                </div>
-                            </a>
-                        </div>
+                        <div id="publication-cards" class="row row-cols-1 row-cols-lg-2 g-3" data-masonry='{"percentPosition": true }'></div>
                     </div>
                 </div>
             </div>
@@ -348,49 +111,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title mb-3">Service</h4>
-
-                        <div class="list-group">
-                            <a class="list-group-item">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Deep Learning, Teaching Assistant, BJTU
-                                    </p>
-                                    <small class="text-body-secondary my-1">Fall 2021</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Machine Learning, Teaching Assistant, BJTU
-                                    </p>
-                                    <small class="text-body-secondary my-1">Fall 2021</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        AAAI Program Committee
-                                    </p>
-                                    <small class="text-body-secondary my-1">2024</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        AAAI, IJCAI, KDD, TKDE, WSDM, WWW, KBS, Volunteer Reviewer
-                                    </p>
-                                    <small class="text-body-secondary my-1">2019, 2020, 2021, 2022, 2023</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        ICDE, External Reviewer
-                                    </p>
-                                    <small class="text-body-secondary my-1">2023</small>
-                                </div>
-                            </a>
-                        </div>
+                        <div class="list-group" id="service-list"></div>
                     </div>
                 </div>
             </div>
@@ -483,9 +204,10 @@
         </div>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
-        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
+        integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
+        async></script>
+    <script src="script.js"></script>
 </body>
 
 </html>
