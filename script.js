@@ -8,7 +8,7 @@ profile['bio'].forEach((item) => {
 
 profile['footnote'].forEach(({ icon, text }, i) => {
     var div = $('<div class="card-text text-body-secondary small">');
-    div.append($(`<i class="bi bi-${icon}">`));
+    div.append($(`<i class="bi bi-${icon} me-1">`));
     div.append($(`<span>${text}</span>`));
     $('#footnote').append(div);
 })
