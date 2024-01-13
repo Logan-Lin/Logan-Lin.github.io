@@ -1,5 +1,3 @@
-$('#page-title, #html-title').text(basic['title']);
-
 profile['bio'].forEach((item) => {
     var p = $('<p class="card-text">');
     p.text(item);
