@@ -22,7 +22,7 @@ profile['link'].forEach(({ icon, text, url, tip }) => {
 })
 
 projects.forEach(({ img, text, url, note }) => {
-    var col = $('<div class="col">');
+    var col = $('<div class="col project-col">');
     if (url) {
         var card = $(`<a class="card" href="${url}" target="_blank" style="text-decoration:none">`);
     } else {
@@ -37,7 +37,7 @@ projects.forEach(({ img, text, url, note }) => {
 })
 
 publications.forEach(({ img, title, url, received, authors }) => {
-    var col = $('<div class="col">');
+    var col = $('<div class="col publication-col">');
     if (url) {
         var card = $(`<a class="card" href="${url}" target="_blank" style="text-decoration:none">`);
     } else {
