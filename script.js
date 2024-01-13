@@ -24,14 +24,14 @@ profile['link'].forEach(({ icon, text, url, tip }) => {
 projects.forEach(({ img, text, url, note }) => {
     var col = $('<div class="col project-col">');
     if (url) {
-        var card = $(`<a class="card" href="${url}" target="_blank" style="text-decoration:none">`);
+        var card = $(`<a class="card shadow-sm" href="${url}" target="_blank" style="text-decoration:none">`);
     } else {
-        var card = $('<div class="card">')
+        var card = $('<div class="card shadow-sm">')
     }
     if (img) {
         card.append($(`<img src="assets/projects/${img}" width="100%" height="100%" class="card-img-top">`));
     }
-    card.append($(`<div class="card-body"><div class="card-text">${text} <div class="small text-secondary">${note}</div></div></div>`));
+    card.append($(`<div class="card-body"><div class="card-text">${text} <div class="small text-secondary mt-2">${note}</div></div></div>`));
     col.append(card);
     $('#project-cards').append(col);
 })
@@ -39,9 +39,9 @@ projects.forEach(({ img, text, url, note }) => {
 publications.forEach(({ img, title, url, received, authors }) => {
     var col = $('<div class="col publication-col">');
     if (url) {
-        var card = $(`<a class="card" href="${url}" target="_blank" style="text-decoration:none">`);
+        var card = $(`<a class="card shadow-sm" href="${url}" target="_blank" style="text-decoration:none">`);
     } else {
-        var card = $('<div class="card">')
+        var card = $('<div class="card shadow-sm">')
     }
     if (img) {
         card.append($(`<img src="assets/publications/${img}" width="100%" height="100%" class="card-img-top">`));
@@ -49,7 +49,7 @@ publications.forEach(({ img, title, url, received, authors }) => {
     card.append($(`<div class="card-body"><div class="card-text"> 
         <span class="badge rounded-pill text-bg-success me-1">${received}</span>
         ${title}
-        <div class="small text-secondary">${authors}</div>
+        <div class="small text-secondary mt-2">${authors}</div>
         </div></div>`));
     col.append(card);
     $('#publication-cards').append(col);
