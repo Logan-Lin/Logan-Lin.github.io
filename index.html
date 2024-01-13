@@ -13,11 +13,9 @@
         crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <script src="data.js"></script>
-
-    <style>
-    </style>
 </head>
 
 <body>
@@ -93,8 +91,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title mb-3">Projects</h4>
-                        <div id="project-cards" class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-3"
-                            data-masonry='{"percentPosition": true }'></div>
+                        <div id="project-cards" class="row row-cols-1 row-cols-lg-2 row-cols-xxl-3 g-3"></div>
                     </div>
                 </div>
             </div>
@@ -103,8 +100,7 @@
                 <div class="card shadow-sm">
                     <div class="card-body">
                         <h4 class="card-title mb-3">Publications</h4>
-                        <div id="publication-cards" class="row row-cols-1 row-cols-lg-2 g-3"
-                            data-masonry='{"percentPosition": true }'></div>
+                        <div id="publication-cards" class="row row-cols-1 row-cols-lg-2 g-3"></div>
                     </div>
                 </div>
             </div>
@@ -207,9 +203,6 @@
     </div>
 </body>
 <script src="script.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"
-    integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous"
-    async></script>
 
 <script>
     function masonry_reload_on_images(parent_dom, item_selector) {
@@ -229,8 +222,8 @@
         })
     }
 
-    masonry_reload_on_images($('#projects'), '.project-col');
-    masonry_reload_on_images($('#publications'), '.publication-col');
+    masonry_reload_on_images($('#project-cards'), '.project-col');
+    masonry_reload_on_images($('#publication-cards'), '.publication-col');
 </script>
 
 </html>
