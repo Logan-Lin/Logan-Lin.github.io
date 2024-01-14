@@ -75,19 +75,25 @@ const projects = [
         "note": "Integrated platform for lubricating the process of spatial-temporal traffic big data mining, including data pre-processing, storing and prediction."
     },
     {
-        "text": "Dynamic Prediction Algorithm of Airline Catering Backup Quantity",
-        "note": "Predicting the airline catering backup quantity to help airline companies reduce economic and productivity losses."
-    },
-    {
         "img": "highway simulation.webp",
         "text": "Highway Toll Rate Optimization System Based on Traffic Big Data",
         "url": "http://demo.insis.com.cn:8202/",
         "note": "A traffic flow simulation system based on historical traffic trajectories and optimal cost algorithm."
     },
     {
+        "img": "scholar-page.webp",
+        "text": "Personal Scholar Page (the page you are current viewing)",
+        "url": "https://github.com/Logan-Lin/Logan-Lin.github.io",
+        "note": "A scholar page I wrote myself with Bootstrap. Unconventional design for a scholar page."
+    },
+    {
         "img": "graph cut.webp",
         "text": "Robust and Balanced Graph Partition Algorithm for Map Services",
         "note": "Co-developed with Tencent, a preliminary algorithm for efficient hierarchical routing on large-scale road networks."
+    },
+    {
+        "text": "Dynamic Prediction Algorithm of Airline Catering Backup Quantity",
+        "note": "Predicting the airline catering backup quantity to help airline companies reduce economic and productivity losses."
     }
 ]
 
