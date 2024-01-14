@@ -1,7 +1,13 @@
 const profile = {
     "bio": [
         "I received the B.S. degree in computer science from Beijing Jiaotong University, Beijing, China, in 2019.",
-        "I am currently working toward the Ph.D. degree in the School of Computer and Information Technology, Beijing Jiaotong University. My research interests include spatio-temporal data mining and representation learning."
+        "I am currently working toward the Ph.D. degree in the School of Computer and Information Technology, Beijing Jiaotong University."
+    ],
+    "topics": [
+        "Spatial-temporal Data Mining",
+        "Trajectory Mining",
+        "Representation Learning",
+        "Pre-training"
     ],
     "footnote": [
         {

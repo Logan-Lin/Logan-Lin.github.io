@@ -1,3 +1,8 @@
+profile['topics'].forEach((item) => {
+    var badge = $(`<span class="badge text-bg-info me-1">${item}</span>`);
+    $('#research-topics').append(badge);
+})
+
 profile['bio'].forEach((item) => {
     var p = $('<p class="card-text">');
     p.text(item);
