@@ -166,7 +166,7 @@ const services = [
         "time": "2019, 2020, 2021, 2022, 2023"
     },
     {
-        "text": "ICDE, External Reviewer",
+        "text": "ICDE External Reviewer",
         "time": "2023"
     },
     {
@@ -177,4 +177,68 @@ const services = [
         "text": "Machine Learning, Teaching Assistant, BJTU",
         "time": "Fall 2021"
     },
+]
+
+const awards = [
+    {
+        "text": "First Prize Scholarship of Beijing Jiaotong University",
+        "time": "2020, 2021, 2023"
+    },
+    {
+        "text": "Tencent Rhino Bird Elite Talent",
+        "time": "2022"
+    },
+    {
+        "text": "National Scholarship for Graduate Students, China",
+        "time": "2019"
+    },
+    {
+        "text": "Second Prize Scholarship of Beijing Jiaotong University",
+        "time": "2016, 2017, 2018"
+    },
+    {
+        "text": "KDD CUP of Fresh Air, Rank 39/4185",
+        "time": "2018"
+    },
+    {
+        "text": "AI Challenger Weather forecast, Second Price in Bi-weekly tournament",
+        "time": "2018"
+    },
+]
+
+const references = [
+    [
+        {
+            "name": "Huaiyu Wan",
+            "note": "Professor, Beijing Jiaotong University",
+            "link": "https://scholar.google.com/citations?user=T5wVWIUAAAAJ&hl=en"
+        },
+        {
+            "name": "Youfang Lin",
+            "note": "Professor, Beijing Jiaotong University",
+            "link": "https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en"
+        },
+        {
+            "name": "Shengnan Guo",
+            "note": "Associate Professor, Beijing Jiaotong University",
+            "link": "https://scholar.google.com/citations?user=3JsSBYsAAAAJ&hl=en"
+        }
+    ],
+    [
+        {
+            "name": "Jilin Hu",
+            "note": "Professor, East China Normal University",
+            "link": "https://scholar.google.com/citations?user=6eSvRMkAAAAJ&hl=en"
+        },
+        {
+            "name": "Bin Yang",
+            "note": "Professor, East China Normal University",
+            "link": "https://scholar.google.com/citations?user=qjBQhoUAAAAJ&hl=zh-CN"
+        },
+        {
+            "name": "Christian S. Jensen",
+            "note": "Professor, Aalborg University",
+            "link": "https://vbn.aau.dk/da/persons/christian-s-jensen"
+        }
+    ]
 ]

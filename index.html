@@ -16,6 +16,12 @@
     <script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
 
     <script src="data.js"></script>
+
+    <style>
+        a.card:hover {
+            background-color: rgb(245, 247, 247);
+        }
+    </style>
 </head>
 
 <body>
@@ -56,6 +62,12 @@
                             <a href="#service" class="nav-link">
                                 <i class="bi bi-mortarboard"></i>
                                 Service
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#awards" class="nav-link">
+                                <i class="bi bi-award"></i>
+                                Awards
                             </a>
                         </li>
                         <li class="nav-item">
@@ -111,80 +123,16 @@
 
             <hr class="mt-4 mb-3">
 
+            <div class="container mb-3" id="awards">
+                <h4 class="card-title mb-3">Awards</h4>
+                <div class="list-group shadow-sm" id="award-list"></div>
+            </div>
+
+            <hr class="mt-4 mb-3">
+
             <div class="container mb-3" id="reference">
                 <h4 class="card-title mb-3">Reference</h4>
-
-                <div class="row">
-                    <div class="col-md-6">
-                        <div class="list-group">
-                            <a class="list-group-item list-group-item-action"
-                                href="https://scholar.google.com/citations?user=T5wVWIUAAAAJ&hl=en" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Huaiyu Wan
-                                    </p>
-                                    <small class="text-body-secondary my-1">Professor, Beijing Jiaotong
-                                        University</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Youfang Lin
-                                    </p>
-                                    <small class="text-body-secondary my-1">Professor, Beijing Jiaotong
-                                        University</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://scholar.google.com/citations?user=3JsSBYsAAAAJ&hl=en" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Shengnan Guo
-                                    </p>
-                                    <small class="text-body-secondary my-1">Lecturer, Beijing Jiaotong
-                                        University</small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="col-md-6">
-                        <div class="list-group">
-                            <a class="list-group-item list-group-item-action"
-                                href="https://vbn.aau.dk/da/persons/christian-s-jensen" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Christian S. Jensen
-                                    </p>
-                                    <small class="text-body-secondary my-1">Professor, Aalborg
-                                        University</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://scholar.google.com/citations?user=qjBQhoUAAAAJ&hl=zh-CN" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Bin Yang
-                                    </p>
-                                    <small class="text-body-secondary my-1">Professor, Aalborg
-                                        University</small>
-                                </div>
-                            </a>
-                            <a class="list-group-item list-group-item-action"
-                                href="https://scholar.google.dk/citations?user=6eSvRMkAAAAJ&hl=en" target="_blank">
-                                <div class="d-flex w-100 justify-content-between">
-                                    <p class="my-1">
-                                        Jilin Hu
-                                    </p>
-                                    <small class="text-body-secondary my-1">Associate Professor, Aalborg
-                                        University</small>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
+                <div class="row row-cols-1 row-cols-md-2 g-2" id="reference-row"></div>
             </div>
 
         </div>

@@ -71,6 +71,35 @@ services.forEach(({ text, time }) => {
     `));
 })
 
+awards.forEach(({ text, time }) => {
+    $('#award-list').append($(`
+        <a class="list-group-item">
+            <div class="d-flex w-100 justify-content-between">
+                <div>
+                    <p class="my-1">${text}</p>
+                </div>
+                <small class="text-body-secondary my-1">${time}</small>
+            </div>
+        </a>
+    `));
+})
+
+references.forEach((list) => {
+    var list_group = $('<div class="list-group shadow-sm">');
+    list.forEach(({name, note, link}) => {
+        var list_item = $(`
+            <a class="list-group-item list-group-item-action" href="${link}" target="_blank">
+                <div class="d-flex w-100 justify-content-between">
+                    <p class="my-1">${name}</p>
+                    <small class="text-body-secondary my-1">${note}</small>
+                </div>
+            </a>
+        `);
+        list_group.append(list_item);
+    });
+    $('#reference-row').append($('<div class="col">').append(list_group));
+})
+
 function masonry_reload_on_images(parent_dom, item_selector) {
     var images = parent_dom.find('img');
     images.each(() => {
