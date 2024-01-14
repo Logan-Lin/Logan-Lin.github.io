@@ -92,8 +92,28 @@ const projects = [
         "note": "Co-developed with Tencent, a preliminary algorithm for efficient hierarchical routing on large-scale road networks."
     },
     {
-        "text": "Dynamic Prediction Algorithm of Airline Catering Backup Quantity",
-        "note": "Predicting the airline catering backup quantity to help airline companies reduce economic and productivity losses."
+        "text": "航空配餐备份量动态预测算法研究",
+        "note": "Enterprise commissioned research project. Predicting the airline catering backup quantity to help airline companies reduce economic and productivity losses."
+    },
+    {
+        "text": "面向稀疏性问题的时空轨迹生成与表示学习方法研究",
+        "note": "National Natural Science Foundation of China general project (国家自然科学基金面上项目). Research on spatio-temporal trajectory generation and representation learning methods for sparsity problems."
+    },
+    {
+        "text": "基于轨迹表示学习的用户出行目的地及行程时间预测",
+        "note": "Basic scientific research project of Beijing Jiaotong University (北京交通大学基本科研研究项目). User travel destination and travel time prediction based on trajectory representation learning."
+    },
+    {
+        "text": "面向交通预测的时空轨迹数据预训练表示学习方法研究",
+        "note": "National Natural Science Foundation of China general project (国家自然科学基金面上项目). Research on pre-training representation learning method of spatiotemporal trajectory data for traffic prediction."
+    },
+    {
+        "text": "基于时空图神经网络的城市路网交通状态估计与预测",
+        "note": "Enterprise commissioned research project. Urban road network traffic status estimation and prediction based on spatio-temporal graph neural network."
+    },
+    {
+        "text": "基于移动用户轨迹大数据的异常交通事件预测",
+        "note": "Enterprise commissioned research project. Abnormal traffic event prediction based on mobile user trajectory big data."
     }
 ]
 
@@ -196,6 +216,10 @@ const awards = [
     },
     {
         "text": "National Scholarship for Graduate Students, China",
+        "time": "2019"
+    },
+    {
+        "text": 'Third Prize of "Challenge Cup" Extracurricular Academic Science and Technology Works of Capital College Students, Beijing',
         "time": "2019"
     },
     {
