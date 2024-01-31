@@ -23,34 +23,16 @@ const profile = {
             "tip": "ylincs@bjtu.edu.cn"
         },
         {
-            "icon": "github",
-            "text": "GitHub",
-            "url": "https://github.com/Logan-Lin",
-            "tip": "Where I share implementation of projects and publications."
-        },
-        {
             "icon": "google",
             "text": "Scholar",
             "url": "https://scholar.google.com/citations?user=nHMmG2UAAAAJ",
             "tip": "My Google Scholar page."
         },
         {
-            "icon": "steam",
-            "text": "Steam",
-            "url": "https://steamcommunity.com/profiles/76561198241353020/",
-            "tip": "I play games sometimes. My only gaming device is the Steam Deck, by the way."
-        },
-        {
-            "icon": "play-circle",
-            "text": "Bangumi",
-            "url": "https://bgm.tv/user/logan_lin",
-            "tip": "An anime critique website. I do like to watch Animes."
-        },
-        {
-            "icon": "play-btn",
-            "text": "BiliBili",
-            "url": "https://space.bilibili.com/2480785",
-            "tip": "I am runing a personal video account with 7k subs."
+            "icon": "github",
+            "text": "GitHub",
+            "url": "https://github.com/Logan-Lin",
+            "tip": "Where I share implementation of projects and publications."
         }
     ]
 }
