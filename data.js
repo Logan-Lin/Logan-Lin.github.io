@@ -103,7 +103,7 @@ const publications = [
     {
         "img": "dot.webp",
         "title": "Origin-Destination Travel Time Oracle for Map-based Services",
-        "url": "https://github.com/Logan-Lin/DOT",
+        "url": "https://dl.acm.org/doi/10.1145/3617337",
         "received": "SIGMOD'24",
         "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin"
     },
