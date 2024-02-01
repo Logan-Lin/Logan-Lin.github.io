@@ -33,7 +33,8 @@ projects.forEach(({ img, text, urls, note }) => {
     var link_row = $('<span>');
     for (url_name in urls) {
         link_row.append($(`
-            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">${url_name}</a>
+            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">
+                <i class="bi bi-link-45deg"></i>${url_name}</a>
         `));
     }
     card.append($(`<div class="card-body">`).append(
@@ -56,7 +57,8 @@ publications.forEach(({ img, title, urls, received, authors }) => {
     var link_row = $('<span>');
     for (url_name in urls) {
         link_row.append($(`
-            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">${url_name}</a>
+            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">
+                <i class="bi bi-link-45deg"></i>${url_name}</a>
         `));
     }
     card.append($('<div class="card-body">').append($('<div class="card-text">').append([
