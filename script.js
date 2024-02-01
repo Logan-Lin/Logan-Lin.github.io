@@ -24,17 +24,25 @@ profile['link'].forEach(({ icon, text, url, tip }) => {
     $('#link').append(a);
 })
 
-projects.forEach(({ img, text, url, note }) => {
+projects.forEach(({ img, text, urls, note }) => {
     var col = $('<div class="col project-col">');
-    if (url) {
-        var card = $(`<a class="card shadow-sm" href="${url}" target="_blank" style="text-decoration:none">`);
-    } else {
-        var card = $('<div class="card shadow-sm">')
-    }
+    var card = $('<div class="card shadow-sm">')
     if (img) {
         card.append($(`<img src="assets/projects/${img}" width="100%" height="100%" class="card-img-top">`));
     }
-    card.append($(`<div class="card-body"><div class="card-text">${text} <div class="small text-secondary mt-2">${note}</div></div></div>`));
+    var link_row = $('<span>');
+    for (url_name in urls) {
+        link_row.append($(`
+            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">${url_name}</a>
+        `));
+    }
+    card.append($(`<div class="card-body">`).append(
+        $(`<div class="card-text">`).append([
+            $(`<span class="me-2">${text}</span>`),
+            link_row,
+            $(`<div class="small text-secondary mt-2">${note}</div>`)
+        ])
+    ));
     col.append(card);
     $('#project-cards').append(col);
 })
@@ -51,13 +59,12 @@ publications.forEach(({ img, title, urls, received, authors }) => {
             <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">${url_name}</a>
         `));
     }
-    var card_body = $('<div class="card-body">').append($('<div class="card-text">').append([
+    card.append($('<div class="card-body">').append($('<div class="card-text">').append([
         `<span class="badge rounded-pill text-bg-success">${received}</span>`,
         `<span class="mx-2">${title}</span>`,
         link_row,
         `<div class="small text-secondary mt-2">${authors}</div>`
-    ]))
-    card.append(card_body);
+    ])));
     col.append(card);
     $('#publication-cards').append(col);
 })

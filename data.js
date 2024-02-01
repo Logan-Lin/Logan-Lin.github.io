@@ -41,31 +41,44 @@ const projects = [
     {
         "img": "promptgenius.webp",
         "text": "Prompt Genius: Comprehensive Prompt Library for AI ChatBots",
-        "url": "https://www.promptgenius.site/",
+        "urls": {
+            "Page": "https://www.promptgenius.site/",
+            "Code": "https://github.com/wenhaomin/ChatGPT-PromptGenius"
+        },
         "note": "All-purpose prompts with hierarchical classification system and multi-language support."
     },
     {
         "img": "overleafcopilot.webp",
         "text": "Overleaf Copilot: A comprehensive scholar writing copilot for Overleaf",
-        "url": "https://overleafcopilot.github.io/",
+        "urls": {
+            "Homepage": "https://overleafcopilot.github.io/",
+            "Chrome Extension": "https://chromewebstore.google.com/detail/overleaf-copilot/eoadabdpninlhkkbhngoddfjianhlghb"
+        },
         "note": "Powered by Large Language Models, OverleafCopilot is a plugin designed to elevate the academic writing experience on Overleaf."
     },
     {
         "img": "spatial-temporal big data.webp",
         "text": "Spatial-temporal Traffic Big Data Mining Platform",
-        "url": "http://demo.insis.com.cn:8200/",
+        "urls": {
+            "Demo": "http://demo.insis.com.cn:8200/"
+        },
         "note": "Integrated platform for lubricating the process of spatial-temporal traffic big data mining, including data pre-processing, storing and prediction."
     },
     {
         "img": "highway simulation.webp",
         "text": "Highway Toll Rate Optimization System Based on Traffic Big Data",
-        "url": "http://demo.insis.com.cn:8202/",
+        "urls": {
+            "Demo": "http://demo.insis.com.cn:8202/"
+        },
         "note": "A traffic flow simulation system based on historical traffic trajectories and optimal cost algorithm."
     },
     {
         "img": "scholar-page.webp",
         "text": "Personal Scholar Page (the page you are current viewing)",
-        "url": "https://github.com/Logan-Lin/Logan-Lin.github.io",
+        "urls": {
+            "Page": "https://github.com/Logan-Lin/Logan-Lin.github.io",
+            "Code": "https://github.com/Logan-Lin/Logan-Lin.github.io"
+        },
         "note": "A scholar page I wrote myself with Bootstrap. Unconventional design for a scholar page."
     },
     {
