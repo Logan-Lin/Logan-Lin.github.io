@@ -104,6 +104,22 @@ references.forEach((list) => {
     $('#reference-row').append($('<div class="col">').append(list_group));
 })
 
+function masonry_reload(parent_dom, item_selector) {
+    parent_dom.masonry({
+        itemSelector: item_selector,
+        columnWidth: item_selector,
+        transitionDuration: 0,
+        percentPosition: true
+    }).masonry('reloadItems').masonry('layout');
+
+    parent_dom.masonry({
+        itemSelector: item_selector,
+        columnWidth: item_selector,
+        transitionDuration: 500,
+        percentPosition: true
+    });
+}
+
 function masonry_reload_on_images(parent_dom, item_selector) {
     var images = parent_dom.find('img');
     images.each(() => {
@@ -121,5 +137,7 @@ function masonry_reload_on_images(parent_dom, item_selector) {
     })
 }
 
+masonry_reload($('#project-cards'), '.project-col');
+masonry_reload($('#publication-cards'), '.publication-col');
 masonry_reload_on_images($('#project-cards'), '.project-col');
 masonry_reload_on_images($('#publication-cards'), '.publication-col');
