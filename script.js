@@ -48,7 +48,7 @@ publications.forEach(({ img, title, urls, received, authors }) => {
     var link_row = $('<span>');
     for (url_name in urls) {
         link_row.append($(`
-            <span class="btn badge btn-light text-info me-1">${url_name}</span>
+            <a class="btn badge btn-light text-info me-1" href="${urls[url_name]}" target="_blank">${url_name}</a>
         `));
     }
     var card_body = $('<div class="card-body">').append($('<div class="card-text">').append([
