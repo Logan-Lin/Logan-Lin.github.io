@@ -103,58 +103,80 @@ const publications = [
     {
         "img": "dot.webp",
         "title": "Origin-Destination Travel Time Oracle for Map-based Services",
-        "url": "https://dl.acm.org/doi/10.1145/3617337",
+        "urls": {
+            "Paper": "https://dl.acm.org/doi/10.1145/3617337",
+            "Pre-print": "https://arxiv.org/abs/2307.03048",
+            "Code": "https://github.com/Logan-Lin/DOT"
+        },
         "received": "SIGMOD'24",
         "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin"
     },
     {
         "img": "mmtec.webp",
         "title": "Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding",
-        "url": "https://arxiv.org/abs/2207.14539",
+        "urls": {
+            "Pre-print": "https://arxiv.org/abs/2207.14539"
+        },
         "received": "TKDE'23",
         "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S. Jensen, Youfang Lin"
     },
     {
         "img": "ctle.webp",
         "title": "Pre-training Context and Time Aware Location Embeddings from Spatial-Temporal Trajectories for User Next Location Prediction",
-        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/16548",
+        "urls": {
+            "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/16548",
+            "Code": "https://github.com/Logan-Lin/CTLE"
+        },
         "received": "AAAI'21",
         "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Youfang Lin"
     },
     {
         "img": "tale.webp",
         "title": "Pre-training Time-Aware Location Embeddings from Spatial-Temporal Trajectories",
-        "url": "https://ieeexplore.ieee.org/abstract/document/9351627/",
+        "urls": {
+            "Paper": "https://ieeexplore.ieee.org/abstract/document/9351627/",
+            "Code": "https://github.com/Logan-Lin/TALE"
+        },
         "received": "TKDE'21",
         "authors": "Huaiyu Wan, <strong>Yan Lin</strong>, Shengnan Guo, Youfang Lin"
     },
     {
         "title": "Inductive and Adaptive Graph Convolution Networks Equipped with Constraint Task for Spatial-Temporal Traffic Data Kriging",
-        "url": "https://www.sciencedirect.com/science/article/pii/S0950705123010730",
+        "urls": {
+            "Paper": "https://www.sciencedirect.com/science/article/pii/S0950705123010730"
+        },
         "received": "KBS'23",
         "authors": "Tonglong Wei, Youfang Lin, Shengnan Guo, <strong>Yan Lin</strong>, Yiji Zhao, Xiyuan Jin, Zhihao Wu, Huaiyu Wan"
     },
     {
         "title": "WITRAN: Water-wave Information Transmission and Recurrent Acceleration Network for Long-range Time Series Forecasting",
-        "url": "https://openreview.net/forum?id=y08bkEtNBK",
+        "urls": {
+            "Paper": "https://openreview.net/forum?id=y08bkEtNBK"
+        },
         "received": "NeurIPS'23",
         "authors": "Yuxin Jia, Youfang Lin, Xinyan Hao, <strong>Yan Lin</strong>, Shengnan Guo, Huaiyu Wan"
     },
     {
         "title": "Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning",
-        "url": "https://ojs.aaai.org/index.php/AAAI/article/view/25546",
+        "urls": {
+            "Paper": "https://ojs.aaai.org/index.php/AAAI/article/view/25546"
+        },
         "received": "AAAI'23",
         "authors": "Letian Gong, Youfang Lin, Shengnan Guo, <strong>Yan Lin</strong>, Tianyi Wang, Erwen Zheng, Zeyu Zhou, Huaiyu Wan"
     },
     {
         "title": "Adversarial self-attentive time-variant neural networks for multi-step time series forecasting",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241",
+        "urls": {
+            "Paper": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
+        },
         "received": "Expert Systems with Applications",
         "authors": "Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan"
     },
     {
         "title": "Multi-scale adaptive attention-based time-variant neural networks for multi-step time series forecasting",
-        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241",
+        "urls": {
+            "Paper": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
+        },
         "received": "Applied Intelligence",
         "authors": "Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan"
     }

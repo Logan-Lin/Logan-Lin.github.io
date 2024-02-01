@@ -39,21 +39,25 @@ projects.forEach(({ img, text, url, note }) => {
     $('#project-cards').append(col);
 })
 
-publications.forEach(({ img, title, url, received, authors }) => {
+publications.forEach(({ img, title, urls, received, authors }) => {
     var col = $('<div class="col publication-col">');
-    if (url) {
-        var card = $(`<a class="card shadow-sm" href="${url}" target="_blank" style="text-decoration:none">`);
-    } else {
-        var card = $('<div class="card shadow-sm">')
-    }
+    var card = $('<div class="card shadow-sm">')
     if (img) {
         card.append($(`<img src="assets/publications/${img}" width="100%" height="100%" class="card-img-top">`));
     }
-    card.append($(`<div class="card-body"><div class="card-text"> 
-        <span class="badge rounded-pill text-bg-success me-1">${received}</span>
-        ${title}
-        <div class="small text-secondary mt-2">${authors}</div>
-        </div></div>`));
+    var link_row = $('<span>');
+    for (url_name in urls) {
+        link_row.append($(`
+            <span class="btn badge btn-light text-info me-1">${url_name}</span>
+        `));
+    }
+    var card_body = $('<div class="card-body">').append($('<div class="card-text">').append([
+        `<span class="badge rounded-pill text-bg-success">${received}</span>`,
+        `<span class="mx-2">${title}</span>`,
+        link_row,
+        `<div class="small text-secondary mt-2">${authors}</div>`
+    ]))
+    card.append(card_body);
     col.append(card);
     $('#publication-cards').append(col);
 })
@@ -86,7 +90,7 @@ awards.forEach(({ text, time }) => {
 
 references.forEach((list) => {
     var list_group = $('<div class="list-group shadow-sm">');
-    list.forEach(({name, note, link}) => {
+    list.forEach(({ name, note, link }) => {
         var list_item = $(`
             <a class="list-group-item list-group-item-action" href="${link}" target="_blank">
                 <div class="d-flex w-100 justify-content-between">
