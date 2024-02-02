@@ -1,6 +1,7 @@
 const profile = {
     "bio": [
         "I received the B.S. degree in computer science from Beijing Jiaotong University, Beijing, China, in 2019.",
+        "I was in Aalborg University, Denmark from Sep. 2022 to Oct. 2023 as a visiting Ph.D., supported by the China Scholarship Council (CSC).",
         "I am currently working toward the Ph.D. degree in the School of Computer and Information Technology, Beijing Jiaotong University."
     ],
     "topics": [
