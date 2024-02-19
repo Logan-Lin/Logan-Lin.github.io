@@ -58,6 +58,11 @@ const projects = [
         "note": "Powered by Large Language Models, OverleafCopilot is a plugin designed to elevate the academic writing experience on Overleaf."
     },
     {
+        "img": "inverse material design.webp",
+        "text": "Inverse Design of Materials Using Diffusion Probabilistic Models",
+        "note": "A Villum Synergy project. Develop a conditioned diffusion model for generating glass-ceramic materials with desired properties."
+    },
+    {
         "img": "spatial-temporal big data.webp",
         "text": "Spatial-temporal Traffic Big Data Mining Platform",
         "urls": {
@@ -198,7 +203,7 @@ const publications = [
 
 const services = [
     {
-        "text": "CVPR Reviewer",
+        "text": "CVPR, KDD Reviewer",
         "time": "2024"
     },
     {
