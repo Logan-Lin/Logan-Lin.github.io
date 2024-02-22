@@ -53,7 +53,8 @@ const projects = [
         "text": "Overleaf Copilot: A comprehensive scholar writing copilot for Overleaf",
         "urls": {
             "Homepage": "https://overleafcopilot.github.io/",
-            "Chrome Extension": "https://chromewebstore.google.com/detail/overleaf-copilot/eoadabdpninlhkkbhngoddfjianhlghb"
+            "Chrome Extension": "https://chromewebstore.google.com/detail/overleaf-copilot/eoadabdpninlhkkbhngoddfjianhlghb",
+            "Demo": "https://www.youtube.com/watch?v=ooPC2iwirAk"
         },
         "note": "Powered by Large Language Models, OverleafCopilot is a plugin designed to elevate the academic writing experience on Overleaf."
     },
