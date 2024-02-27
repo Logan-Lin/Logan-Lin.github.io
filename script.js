@@ -1,3 +1,7 @@
+$('#html-title,#page-title').text(`${profile['name']}'s Scholar Page`);
+
+$('#photo').attr('src', `assets/${profile['photo']}`);
+
 profile['topics'].forEach((item) => {
     var badge = $(`<span class="badge text-bg-info me-1">${item}</span>`);
     $('#research-topics').append(badge);
@@ -111,6 +115,15 @@ references.forEach((list) => {
         list_group.append(list_item);
     });
     $('#reference-row').append($('<div class="col">').append(list_group));
+})
+
+$('#copyright').text(`© ${copyright}`);
+
+footer_links.forEach(({ text, url }) => {
+    $('#footer-links').append(`
+        <li class="nav-item">
+            <a href="${url}" target="_blank" class="nav-link px-2 text-body-secondary">${text}</a>
+        </li>`);
 })
 
 function masonry_reload(parent_dom, item_selector) {

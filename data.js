@@ -1,4 +1,6 @@
 const profile = {
+    "name": "Yan Lin",
+    "photo": "yanlin.webp",
     "bio": [
         "I received the B.S. degree in computer science from Beijing Jiaotong University, Beijing, China, in 2019.",
         "I was in Aalborg University, Denmark from Sep. 2022 to Oct. 2023 as a visiting Ph.D., supported by the China Scholarship Council (CSC).",
@@ -81,12 +83,12 @@ const projects = [
     },
     {
         "img": "scholar-page.webp",
-        "text": "Personal Scholar Page (the page you are current viewing)",
+        "text": "My Personal Scholar Page",
         "urls": {
             "Page": "https://github.com/Logan-Lin/Logan-Lin.github.io",
             "Code": "https://github.com/Logan-Lin/Logan-Lin.github.io"
         },
-        "note": "A scholar page I wrote myself with Bootstrap. Unconventional design for a scholar page."
+        "note": "A scholar page I wrote myself with Bootstrap. Modern design with a fully responsive layout."
     },
     {
         "img": "graph cut.webp",
@@ -295,4 +297,13 @@ const references = [
             "link": "https://vbn.aau.dk/da/persons/christian-s-jensen"
         }
     ]
+]
+
+const copyright = "2024 Yan Lin"
+
+const footer_links = [
+    {
+        "text": "Code",
+        "url": "https://github.com/Logan-Lin/Logan-Lin.github.io"
+    }
 ]
