@@ -14,13 +14,13 @@ Balanced elegance for a scholar page, designed to highlight your academic achiev
 
 Ensures optimal viewing on any device.
 
-![scholar_page](./assets/readme/scholar_page.webp)
+![scholar_page](./assets/readme/adaptive_layout.webp)
 
 ### No Coding Needed
 
 Manage your content effortlessly with an intuitive data file. No need for HTML expertise.
 
-![data_file](./assets/readme/data_file.webp)
+![data_file](./assets/readme/dynamic_render.webp)
 
 ### Pure Frontend
 
