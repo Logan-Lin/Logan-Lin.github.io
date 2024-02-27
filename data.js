@@ -305,5 +305,9 @@ const footer_links = [
     {
         "text": "Code",
         "url": "https://github.com/Logan-Lin/Logan-Lin.github.io"
+    },
+    {
+        "text": "Bootstrap",
+        "url": "https://getbootstrap.com"
     }
 ]
