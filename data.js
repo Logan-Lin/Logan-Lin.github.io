@@ -137,7 +137,9 @@ const publications = [
         "img": "mmtec.webp",
         "title": "Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding",
         "urls": {
-            "Pre-print": "https://arxiv.org/abs/2207.14539"
+            "Pre-print": "https://arxiv.org/abs/2207.14539",
+            "Early-access": "https://ieeexplore.ieee.org/abstract/document/10375102/",
+            "Code": "https://github.com/Logan-Lin/MMTEC"
         },
         "received": "TKDE'23",
         "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S. Jensen, Youfang Lin"
