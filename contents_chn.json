@@ -1,0 +1,318 @@
+{
+    "titles": {
+        "profile": "简历",
+        "publications": "发表论文",
+        "projects": "项目经历",
+        "service": "学术服务",
+        "awards": "奖项",
+        "reference": "引用"
+    },
+    "profile": {
+        "name": "林彦",
+        "photo": "yanlin.webp",
+        "bio": [
+            "2019年获得北京交通大学计算机学士学位。",
+            "2022年9月至2023年10月，受中国国家留学基金委（CSC）资助，于丹麦奥尔堡大学访问。",
+            "目前正在北京交通大学计算机与信息技术学院攻读博士学位。"
+        ],
+        "topics": [
+            "时空数据挖掘",
+            "轨迹挖掘",
+            "表示学习",
+            "预训练"
+        ],
+        "footnote": [
+            {
+                "icon": "geo-alt",
+                "text": "中国北京市海淀区北京交通大学 100044"
+            }
+        ],
+        "link": [
+            {
+                "icon": "envelope",
+                "text": "电子邮件",
+                "url": "mailto:ylincs@bjtu.edu.cn",
+                "tip": "ylincs@bjtu.edu.cn"
+            },
+            {
+                "icon": "google",
+                "text": "谷歌学术",
+                "url": "https://scholar.google.com/citations?user=nHMmG2UAAAAJ",
+                "tip": "我的谷歌学术主页。"
+            },
+            {
+                "icon": "github",
+                "text": "GitHub",
+                "url": "https://github.com/Logan-Lin",
+                "tip": "我在这里分享项目和论文的实现。"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "img": "promptgenius.webp",
+            "text": "Prompt Genius：全功能提示词",
+            "urls": {
+                "网站": "https://www.promptgenius.site/",
+                "代码": "https://github.com/wenhaomin/ChatGPT-PromptGenius"
+            },
+            "note": "一个致力于收集和提供高质量Prompt的平台，旨在帮助大家更有效地利用AI，从而提升工作效率和质量。"
+        },
+        {
+            "img": "overleafcopilot.webp",
+            "text": "Overleaf Copilot：论文写作加速器",
+            "urls": {
+                "首页": "https://overleafcopilot.github.io/",
+                "演示": "https://www.youtube.com/watch?v=ooPC2iwirAk",
+                "论文": "https://arxiv.org/abs/2403.09733"
+            },
+            "note": "无缝整合ChatGPT与Overleaf，实现论文质量与速度的双重飞跃。"
+        },
+        {
+            "img": "inverse material design.webp",
+            "text": "基于扩散概率模型的玻璃材料逆向设计",
+            "note": "Villum Synergy项目。开发一种条件扩散模型，用于生成具有指定属性的玻璃陶瓷材料。"
+        },
+        {
+            "img": "spatial-temporal big data.webp",
+            "text": "时空交通大数据挖掘平台",
+            "urls": {
+                "演示": "http://demo.insis.com.cn:8200/"
+            },
+            "note": "集成时空交通大数据挖掘过程的平台，包括数据预处理、存储和预测。"
+        },
+        {
+            "img": "highway simulation.webp",
+            "text": "基于交通大数据的高速公路收费率优化系统",
+            "urls": {
+                "演示": "http://demo.insis.com.cn:8202/"
+            },
+            "note": "根据历史通行大数据，对新建路段的流量进行仿真，进而指导路网的建设规划。"
+        },
+        {
+            "img": "scholar-page.webp",
+            "text": "个人学术主页",
+            "urls": {
+                "网站": "https://logan-lin.github.io/",
+                "代码": "https://github.com/Logan-Lin/Logan-Lin.github.io"
+            },
+            "note": "基于Bootstrap的学术主页。现代设计，具有完全响应式布局。"
+        },
+        {
+            "img": "graph cut.webp",
+            "text": "面向地图服务的鲁棒且平衡的图分割算法",
+            "note": "与腾讯共同开发，支撑大规模道路网络上的高效层级路径规划算法。"
+        },
+        {
+            "text": "面向交通预测的时空轨迹数据预训练表示学习方法研究",
+            "note": "国家自然科学基金面上项目。研究面向交通预测的时空轨迹数据预训练表示学习方法。"
+        },
+        {
+            "text": "面向稀疏性问题的时空轨迹生成与表示学习方法研究",
+            "note": "国家自然科学基金面上项目。研究稀疏问题的时空轨迹生成和表示学习方法。"
+        },
+        {
+            "text": "基于轨迹表示学习的用户出行目的地及行程时间预测",
+            "note": "北京交通大学基本科研研究项目。基于轨迹表示学习的用户出行目的地和行程时间预测。"
+        },
+        {
+            "text": "航空配餐备份量动态预测算法研究",
+            "note": "企业委托研究项目。预测航空公司备份餐食的数量，以帮助航空公司减少经济和生产效益损失。"
+        },
+        {
+            "text": "基于时空图神经网络的城市路网交通状态估计与预测",
+            "note": "企业委托研究项目。基于时空图神经网络的城市路网交通状态估计和预测。"
+        },
+        {
+            "text": "基于移动用户轨迹大数据的异常交通事件预测",
+            "note": "企业委托研究项目。基于移动用户轨迹大数据的异常交通事件预测。"
+        }
+    ],
+    "publications": [
+        {
+            "img": "dot.webp",
+            "title": "Origin-Destination Travel Time Oracle for Map-based Services",
+            "urls": {
+                "论文": "https://dl.acm.org/doi/10.1145/3617337",
+                "预印本": "https://arxiv.org/abs/2307.03048",
+                "代码": "https://github.com/Logan-Lin/DOT"
+            },
+            "received": "SIGMOD'24",
+            "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin"
+        },
+        {
+            "img": "mmtec.webp",
+            "title": "Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding",
+            "urls": {
+                "论文": "https://ieeexplore.ieee.org/abstract/document/10375102/",
+                "预印本": "https://arxiv.org/abs/2207.14539",
+                "代码": "https://github.com/Logan-Lin/MMTEC"
+            },
+            "received": "TKDE'23",
+            "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S. Jensen, Youfang Lin"
+        },
+        {
+            "img": "ctle.webp",
+            "title": "Pre-training Context and Time Aware Location Embeddings from Spatial-Temporal Trajectories for User Next Location Prediction",
+            "urls": {
+                "论文": "https://ojs.aaai.org/index.php/AAAI/article/view/16548",
+                "代码": "https://github.com/Logan-Lin/CTLE"
+            },
+            "received": "AAAI'21",
+            "authors": "<strong>Yan Lin</strong>, Huaiyu Wan, Shengnan Guo, Youfang Lin"
+        },
+        {
+            "img": "tale.webp",
+            "title": "Pre-training Time-Aware Location Embeddings from Spatial-Temporal Trajectories",
+            "urls": {
+                "论文": "https://ieeexplore.ieee.org/abstract/document/9351627/",
+                "代码": "https://github.com/Logan-Lin/TALE"
+            },
+            "received": "TKDE'21",
+            "authors": "Huaiyu Wan, <strong>Yan Lin</strong>, Shengnan Guo, Youfang Lin"
+        },
+        {
+            "title": "Inductive and Adaptive Graph Convolution Networks Equipped with Constraint Task for Spatial-Temporal Traffic Data Kriging",
+            "urls": {
+                "论文": "https://www.sciencedirect.com/science/article/pii/S0950705123010730"
+            },
+            "received": "KBS'23",
+            "authors": "Tonglong Wei, Youfang Lin, Shengnan Guo, <strong>Yan Lin</strong>, Yiji Zhao, Xiyuan Jin, Zhihao Wu, Huaiyu Wan"
+        },
+        {
+            "title": "WITRAN: Water-wave Information Transmission and Recurrent Acceleration Network for Long-range Time Series Forecasting",
+            "urls": {
+                "论文": "https://openreview.net/forum?id=y08bkEtNBK"
+            },
+            "received": "NeurIPS'23",
+            "authors": "Yuxin Jia, Youfang Lin, Xinyan Hao, <strong>Yan Lin</strong>, Shengnan Guo, Huaiyu Wan"
+        },
+        {
+            "title": "Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning",
+            "urls": {
+                "论文": "https://ojs.aaai.org/index.php/AAAI/article/view/25546"
+            },
+            "received": "AAAI'23",
+            "authors": "Letian Gong, Youfang Lin, Shengnan Guo, <strong>Yan Lin</strong>, Tianyi Wang, Erwen Zheng, Zeyu Zhou, Huaiyu Wan"
+        },
+        {
+            "title": "Adversarial self-attentive time-variant neural networks for multi-step time series forecasting",
+            "urls": {
+                "论文": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
+            },
+            "received": "Expert Systems with Applications",
+            "authors": "Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan"
+        },
+        {
+            "title": "Multi-scale adaptive attention-based time-variant neural networks for multi-step time series forecasting",
+            "urls": {
+                "论文": "https://www.sciencedirect.com/science/article/abs/pii/S0957417423012241"
+            },
+            "received": "Applied Intelligence",
+            "authors": "Changxia Gao, Ning Zhang, Youru Li, <strong>Yan Lin</strong>, Huaiyu Wan"
+        }
+    ],
+    "services": [
+        {
+            "text": "CVPR、KDD审稿人",
+            "time": "2024"
+        },
+        {
+            "text": "AAAI程序委员会",
+            "time": "2024"
+        },
+        {
+            "text": "AAAI、IJCAI、KDD、TKDE、WSDM、WWW、KBS志愿审稿人",
+            "time": "2019, 2020, 2021, 2022, 2023"
+        },
+        {
+            "text": "ICDE外部审稿人",
+            "time": "2023"
+        },
+        {
+            "text": "深度学习，助教，北京交通大学",
+            "time": "2021年秋季"
+        },
+        {
+            "text": "机器学习，助教，北京交通大学",
+            "time": "2021年秋季"
+        }
+    ],
+    "awards": [
+        {
+            "text": "北京交通大学一等奖学金",
+            "time": "2020, 2021, 2023"
+        },
+        {
+            "text": "腾讯犀牛鸟精英人才计划",
+            "time": "2022"
+        },
+        {
+            "text": "中国研究生国家奖学金",
+            "time": "2019"
+        },
+        {
+            "text": "第十届“挑战杯”首都大学生课外学术科技作品三等奖，北京",
+            "time": "2019"
+        },
+        {
+            "text": "北京交通大学二等奖学金",
+            "time": "2016, 2017, 2018"
+        },
+        {
+            "text": "KDD CUP of Fresh Air，排名39/4185",
+            "time": "2018"
+        },
+        {
+            "text": "AI Challenger Weather forecast，双周赛亚军",
+            "time": "2018"
+        }
+    ],
+    "references": [
+        [
+            {
+                "name": "万怀宇",
+                "note": "教授，北京交通大学",
+                "link": "https://scholar.google.com/citations?user=T5wVWIUAAAAJ&hl=en"
+            },
+            {
+                "name": "林友芳",
+                "note": "教授，北京交通大学",
+                "link": "https://scholar.google.com/citations?user=e8xT-e0AAAAJ&hl=en"
+            },
+            {
+                "name": "郭晟楠",
+                "note": "副教授，北京交通大学",
+                "link": "https://scholar.google.com/citations?user=3JsSBYsAAAAJ&hl=en"
+            }
+        ],
+        [
+            {
+                "name": "胡吉林",
+                "note": "教授，华东师范大学",
+                "link": "https://scholar.google.com/citations?user=6eSvRMkAAAAJ&hl=en"
+            },
+            {
+                "name": "杨彬",
+                "note": "教授，华东师范大学",
+                "link": "https://scholar.google.com/citations?user=qjBQhoUAAAAJ&hl=zh-CN"
+            },
+            {
+                "name": "Christian S. Jensen",
+                "note": "教授，奥尔堡大学",
+                "link": "https://vbn.aau.dk/da/persons/christian-s-jensen"
+            }
+        ]
+    ],
+    "copyright": "2024林彦",
+    "footer": [
+        {
+            "text": "代码",
+            "url": "https://github.com/Logan-Lin/Logan-Lin.github.io"
+        },
+        {
+            "text": "Bootstrap",
+            "url": "https://getbootstrap.com"
+        }
+    ]
+}
