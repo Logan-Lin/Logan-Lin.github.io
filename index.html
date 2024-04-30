@@ -1,154 +1,616 @@
-<!doctype html>
-<html lang="en">
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title id="html-title"></title>
-    <link rel="icon" type="image/x-icon" href="/favicon.ico">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+  <meta charset="utf-8">
 
-    <link href="/modules/bootstrap.min.css" rel="stylesheet">
-    <script src="/modules/bootstrap.bundle.min.js"></script>
-    <script src="/modules/jquery-3.7.1.min.js"></script>
-    <script src="/modules/masonry.pkgd.min.js"></script>
+  <!-- Viewport -->
+  <meta name="viewport"
+    content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, viewport-fit=cover">
+
+  <!-- SEO meta tags -->
+  <title>Yan Lin's Scholar Page</title>
+  <meta name="description" content="Yan Lin's Scholar Page">
+  <meta name="keywords" content="homepage, scholar, academic, researcher, deep learning, data mining">
+  <meta name="author" content="Yan Lin">
+
+  <!-- Webmanifest + Favicon / App icons -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="icon" type="image/png" href="assets/app-icons/icon-32x32.png" sizes="32x32">
+  <link rel="apple-touch-icon" href="assets/app-icons/icon-180x180.png">
+
+  <!-- Theme switcher (color modes) -->
+  <script src="assets/js/theme-switcher.js"></script>
+
+  <!-- Import Google font (Inter) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"
+    id="google-font">
+
+  <!-- Vendor styles -->
+  <link rel="stylesheet" media="screen" href="assets/vendor/swiper/swiper-bundle.min.css">
+  <link rel="stylesheet" media="screen" href="assets/vendor/aos/dist/aos.css">
+  <link rel="stylesheet" media="screen" href="assets/vendor/simplebar/dist/simplebar.min.css">
+
+  <!-- Font icons -->
+  <link rel="stylesheet" href="assets/icons/around-icons.min.css">
+
+  <!-- Theme styles + Bootstrap -->
+  <link rel="stylesheet" media="screen" href="assets/css/theme.min.css">
+
+  <!-- Page loading styles -->
+  <style>
+    .page-loading {
+      position: fixed;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      -webkit-transition: all .4s .2s ease-in-out;
+      transition: all .4s .2s ease-in-out;
+      background-color: #fff;
+      opacity: 0;
+      visibility: hidden;
+      z-index: 9999;
+    }
+
+    [data-bs-theme="dark"] .page-loading {
+      background-color: #121519;
+    }
+
+    .page-loading.active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .page-loading-inner {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      width: 100%;
+      text-align: center;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%);
+      -webkit-transition: opacity .2s ease-in-out;
+      transition: opacity .2s ease-in-out;
+      opacity: 0;
+    }
+
+    .page-loading.active>.page-loading-inner {
+      opacity: 1;
+    }
+
+    .page-loading-inner>span {
+      display: block;
+      font-family: "Inter", sans-serif;
+      font-size: 1rem;
+      font-weight: normal;
+      color: #6f788b;
+    }
+
+    [data-bs-theme="dark"] .page-loading-inner>span {
+      color: #fff;
+      opacity: .6;
+    }
+
+    .page-spinner {
+      display: inline-block;
+      width: 2.75rem;
+      height: 2.75rem;
+      margin-bottom: .75rem;
+      vertical-align: text-bottom;
+      background-color: #d7dde2;
+      border-radius: 50%;
+      opacity: 0;
+      -webkit-animation: spinner .75s linear infinite;
+      animation: spinner .75s linear infinite;
+    }
+
+    [data-bs-theme="dark"] .page-spinner {
+      background-color: rgba(255, 255, 255, .25);
+    }
+
+    @-webkit-keyframes spinner {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      50% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+
+    @keyframes spinner {
+      0% {
+        -webkit-transform: scale(0);
+        transform: scale(0);
+      }
+
+      50% {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+      }
+    }
+  </style>
+
+  <!-- Page loading scripts -->
+  <script>
+    (function () {
+      window.onload = function () {
+        const preloader = document.querySelector('.page-loading')
+        preloader.classList.remove('active')
+        setTimeout(function () {
+          preloader.remove()
+        }, 1500)
+      }
+    })()
+  </script>
 </head>
 
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-90X3EMYW81"></script>
-<script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() { dataLayer.push(arguments); }
-    gtag('js', new Date());
 
-    gtag('config', 'G-90X3EMYW81');
-</script>
+<!-- Body -->
 
 <body>
-    <div class="container-xxl" id="main-container">
-        <nav class="navbar fixed-top bg-body-tertiary navbar-expand-lg">
-            <div class="container">
-                <a href="./index.html" class="navbar-brand mb-0 h1">
-                    <span class="fs-4" id="page-title"></span>
-                </a>
 
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#main-navbar-collapse" aria-controls="navbarNavAltMarkup" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
 
-                <div class="collapse navbar-collapse" id="main-navbar-collapse">
-                    <ul class="navbar-nav w-100" id="header-navbar">
-                        <li class="nav-item">
-                            <a href="#profile" class="nav-link active" aria-current="page">
-                                <i class="bi bi-person"></i>
-                                <span class="profile-text"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#publications" class="nav-link">
-                                <i class="bi bi-book-half"></i>
-                                <span class="publications-text"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#projects" class="nav-link">
-                                <i class="bi bi-wrench"></i>
-                                <span class="projects-text"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#service" class="nav-link">
-                                <i class="bi bi-mortarboard"></i>
-                                <span class="service-text"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#awards" class="nav-link">
-                                <i class="bi bi-award"></i>
-                                <span class="awards-text"></span>
-                            </a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#reference" class="nav-link">
-                                <i class="bi bi-quote"></i>
-                                <span class="reference-text"></span>
-                            </a>
-                        </li>
+  <!-- Page loading spinner -->
+  <div class="page-loading active">
+    <div class="page-loading-inner">
+      <div class="page-spinner"></div>
+      <span>Loading...</span>
+    </div>
+  </div>
 
-                        <li class="nav-item ms-auto">
-                            <button class="btn btn-outline-dark" id="lan-switch-btn">
-                                <i class="bi bi-translate"></i>
-                                <span></span>
-                            </button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+
+  <!-- Page wrapper -->
+  <main class="page-wrapper">
+
+    <!-- Navbar. Remove 'fixed-top' class to make the navigation bar scrollable with the page -->
+    <header class="navbar navbar-expand-lg fixed-top bg-light">
+      <div class="container">
+
+        <!-- Navbar brand (Logo) -->
+        <a class="navbar-brand pe-sm-3" href="index.html">
+          Yan Lin's Page
+        </a>
+
+        <!-- Theme switcher -->
+        <div class="form-check form-switch mode-switch order-lg-2 me-3 me-lg-4 ms-auto" data-bs-toggle="mode">
+          <input class="form-check-input" type="checkbox" id="theme-mode">
+          <label class="form-check-label" for="theme-mode">
+            <i class="ai-sun fs-lg"></i>
+          </label>
+          <label class="form-check-label" for="theme-mode">
+            <i class="ai-moon fs-lg"></i>
+          </label>
+        </div>
+
+        <!-- Mobile menu toggler (Hamburger) -->
+        <button class="navbar-toggler ms-sm-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navbar collapse (Main navigation) -->
+        <nav class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav navbar-nav-scroll me-auto" style="--ar-scroll-height: 520px;">
+            <li class="nav-item">
+              <a class="nav-link" href="/bio.html">Bio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/publications.html">Publications</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/projects.html">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/talks.html">Talks</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/awards.html">Awards</a>
+            </li>
+          </ul>
         </nav>
+      </div>
+    </header>
 
-        <div style="margin-top: 80px" data-bs-spy="scroll" data-bs-target="#header-navbar" data-bs-smooth-scroll="true">
-            <div class="container mb-3" id="profile">
-                <div class="card shadow-sm">
-                    <div class="row g-0">
-                        <div class="col-md-5 d-flex">
-                            <img class="img-fluid rounded object-fit-cover" alt="Photo" id="photo">
-                        </div>
 
-                        <div class="card-body col-md-7 d-flex flex-column" id="profile-card">
-                            <h4 class="mb-3 profile-text"></h4>
-                            <div id="bio"></div>
-                            <div id="research-topics" class="mt-auto mb-2"></div>
-                            <div id="footnote"></div>
-                            <div class="mt-auto" id="link"></div>
-                        </div>
-                    </div>
+    <!-- Hero -->
+    <section class="pt-5" style="background: linear-gradient(176.14deg, #f8f7e1 2.64%, #e7fefe 94.95%);">
+      <div class="container pt-5" data-bs-theme="light">
+        <div class="row align-items-center justify-content-center pt-3 pt-sm-4 mt-sm-3">
+          <div class="col-sm-9 col-md-8 col-lg-7 offset-lg-1 order-md-1 pb-3 pb-sm-0 mt-md-n5 mb-4 mb-sm-5">
+            <div class="ps-md-4 ps-lg-0 mt-md-n4 mt-lg-n5">
+              <h1 class="display-5 mb-lg-4">Hi, my name is
+                <span class="text-dark fw-bolder" data-bs-theme="light">Yan Lin</span>,<br>
+                A CS Researcher
+              </h1>
+              <p class="text-body fs-lg">
+                My research interests lies in Spatial-temporal Data Mining, Trajectory Mining, Representation Learning,
+                and Pre-training.
+              </p>
+            </div>
+          </div>
+          <div class="col-10 col-md-4 order-md-2">
+            <img src="assets/YanLin.webp">
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- About -->
+    <section class="container my-3 my-xl-4 my-xxl-5">
+      <div class="">
+        <h4 class="pb-0 mb-2">
+          I received the B.S. degree in computer science from
+          <a class="text-primary" href="https://bjtu.edu.cn/"><u>Beijing Jiaotong University</u></a>
+          in 2019, and the Ph.D. degree in computer science in 2024.<br>
+          I am currently a Post-Doc. in the DAISY group,
+          <a class="text-primary" href="https://www.en.aau.dk/"><u>Aalborg University</u></a>.
+        </h4>
+        <div class="d-flex">
+          <a class="btn btn-outline-secondary btn-sm me-3" href="/bio.html">
+            <i class="ai-note me-2"></i>
+            Full Biography
+          </a>
+          <a class="btn btn-outline-secondary btn-sm" href="/assets/cv.pdf">
+            <i class="ai-download me-2"></i>
+            Download CV
+          </a>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- News -->
+    <section class="position-relative py-2 py-sm-3 py-md-4 py-lg-5">
+      <div class="bg-secondary position-absolute top-0 start-0 w-100 h-100 d-none d-xxl-block"
+        style="border-top-left-radius: 8rem; border-bottom-right-radius: 8rem;"></div>
+      <div class="bg-secondary position-absolute top-0 start-0 w-100 h-100 d-none d-lg-block d-xxl-none"
+        style="border-top-left-radius: 4rem; border-bottom-right-radius: 4rem;"></div>
+      <div class="bg-secondary position-absolute top-0 start-0 w-100 h-100 d-lg-none"
+        style="border-top-left-radius: 2.25rem; border-bottom-right-radius: 2.25rem;"></div>
+      <div
+        class="container position-relative z-2 py-3 py-md-2 py-lg-1 py-xl-0 mt-xl-2 mb-lg-1 mb-xl-2 mb-xxl-3 mt-xxl-4">
+        <h2 class="h1 pt-xxl-1 pb-4 mb-2 mb-lg-3">News</h2>
+
+        <!-- Swiper slider -->
+        <div class="swiper" data-swiper-options='
+            {
+              "slidesPerView": 1,
+              "spaceBetween": 24,
+              "pagination": {
+                "el": ".swiper-pagination",
+                "clickable": true
+              },
+              "breakpoints": {
+                "500": {
+                  "slidesPerView": 2
+                },
+                "991": {
+                  "slidesPerView": 3
+                }
+              },
+              "autoplay": {
+                "delay": 5000,
+                "disableOnInteraction": false
+              }
+            }
+          '>
+          <div class="swiper-wrapper">
+
+            <!-- Item -->
+            <div class="swiper-slide">
+              <div class="position-relative">
+                <img class="rounded-1" src="assets/news/STGED.webp">
+                <div class="pt-3 mt-3">
+                  <h3 class="h4 mb-3">
+                    <a class="stretched-link" href="/publications.html">STGED accepted by TKDE'24</a>
+                  </h3>
+                  <p class="mb-0">Micro-Macro Spatial-Temporal Graph-based Encoder-Decoder for Map-Constrained
+                    Trajectory Recovery</p>
                 </div>
+              </div>
             </div>
 
-            <div class="container mb-3" id="publications">
-                <hr class="mt-4 mb-3">
-                <h4 class="mb-3 publications-text"></h4>
-                <div id="publication-cards" class="row row-cols-1 row-cols-lg-2 g-2"></div>
+            <!-- Item -->
+            <div class="swiper-slide">
+              <div class="position-relative">
+                <img class="rounded-1" src="assets/news/spatialdi24.webp">
+                <div class="pt-3 mt-3">
+                  <h3 class="h4 mb-3">
+                    <a class="stretched-link" href="/talks.html">A Talk in SpatialDI'24</a>
+                  </h3>
+                  <p class="mb-0">Tutorial: Self-supervised learning of spatio-temporal trajectories</p>
+                </div>
+              </div>
             </div>
 
-            <div class="container mb-3" id="projects">
-                <hr class="mt-4 mb-3">
-                <h4 class="mb-3 projects-text"></h4>
-                <div id="project-cards" class="row row-cols-1 row-cols-md-2 row-cols-xxl-3 g-2"></div>
+            <!-- Item -->
+            <div class="swiper-slide">
+              <div class="position-relative">
+                <img class="rounded-1" src="assets/news/thesis.webp">
+                <div class="pt-3 mt-3">
+                  <h3 class="h4 mb-3">
+                    <a class="stretched-link" href="/talks.html">Ph.D. Thesis Defense</a>
+                  </h3>
+                  <p class="mb-0">Title: Self-supervised Learning of Spatial-temporal Trajectory Data</p>
+                </div>
+              </div>
             </div>
 
-            <div class="container mb-3" id="service">
-                <hr class="mt-4 mb-3">
-                <h4 class="mb-3 service-text"></h4>
-                <div class="list-group shadow-sm" id="service-list"></div>
+            <!-- Item -->
+            <div class="swiper-slide">
+              <div class="position-relative">
+                <img class="rounded-1" src="assets/news/mmtec.webp">
+                <div class="pt-3 mt-3">
+                  <h3 class="h4 mb-3">
+                    <a class="stretched-link" href="/publications.html">MMTEC accepted by TKDE'24</a>
+                  </h3>
+                  <p class="mb-0">Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding</p>
+                </div>
+              </div>
             </div>
 
-            <div class="container mb-3" id="awards">
-                <hr class="mt-4 mb-3">
-                <h4 class="mb-3 awards-text"></h4>
-                <div class="list-group shadow-sm" id="award-list"></div>
+            <!-- Item -->
+            <div class="swiper-slide">
+              <div class="position-relative">
+                <img class="rounded-1" src="assets/news/dot.webp">
+                <div class="pt-3 mt-3">
+                  <h3 class="h4 mb-3">
+                    <a class="stretched-link" href="/publications.html">DOT accepted by SIGMOD'24</a>
+                  </h3>
+                  <p class="mb-0">Origin-Destination Travel Time Oracle for Map-based Services</p>
+                </div>
+              </div>
             </div>
 
-            <div class="container mb-3" id="reference">
-                <hr class="mt-4 mb-3">
-                <h4 class="mb-3 reference-text"></h4>
-                <div class="row row-cols-1 row-cols-md-2 g-2" id="reference-row"></div>
-            </div>
+          </div>
 
-            <div class="container mb-3">
-                <hr class="mt-4 mb-0">
-                <footer class="d-flex flex-wrap justify-content-between align-items-center py-2">
-                    <p class="col-md-4 mb-0 text-body-secondary" id="copyright"></p>
-                    <img src="favicon.ico" style="width: 30px;">
-                    <ul class="nav col-md-4 justify-content-end" id="footer-links"></ul>
-                </footer>
-            </div>
+          <!-- Pagination (bullets) -->
+          <div class="swiper-pagination position-relative bottom-0 mt-2 pt-4"></div>
 
         </div>
+      </div>
+    </section>
+
+    <!-- Latest Publications -->
+    <section class="container py-4 my-lg-3 my-xl-4 my-xxl-5">
+      <h2 class="h1 text-center">Latest Publications</h2>
+      <div class="row row-cols-1 row-cols-sm-1 row-cols-lg-2 g-4">
+
+        <!-- Item -->
+        <div class="col">
+          <a class="card card-hover h-100 border-0 bg-secondary rounded-1 text-decoration-none overflow-hidden"
+            href="/publications.html">
+            <div
+              class="card-body d-flex align-items-end position-absolute top-0 start-0 w-100 h-100 opacity-0 bg-size-contain bg-repeat-0 bg-position-center pb-4"
+              style="background-image: url(assets/publications/STGED.webp); background-color: #ddd;">
+            </div>
+            <div class="card-body pb-3">
+              <p class="d-flex flex-row gap-2 flex-wrap">
+                <span class="badge bg-primary fs-sm">TKDE'24</span>
+                <span class="badge bg-info fs-sm">Spatio-temporal</span>
+              </p>
+              <h5>Micro-Macro Spatial-Temporal Graph-based Encoder-Decoder for Map-Constrained Trajectory Recovery</h5>
+              <p>Recovering intermediate missing GPS points in a sparse trajectory with the proposed Micro-Macro
+                Spatial-Temporal Graph-based Encoder-Decoder (MM-STGED).</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Item -->
+        <div class="col">
+          <a class="card card-hover h-100 border-0 bg-secondary rounded-1 text-decoration-none overflow-hidden"
+            href="/publications.html">
+            <div
+              class="card-body d-flex align-items-end position-absolute top-0 start-0 w-100 h-100 opacity-0 bg-size-contain bg-repeat-0 bg-position-center pb-4"
+              style="background-image: url(assets/publications/mmtec.webp); background-color: #ddd;">
+            </div>
+            <div class="card-body pb-3">
+              <p class="d-flex flex-row gap-2 flex-wrap">
+                <span class="badge bg-primary fs-sm">TKDE'24</span>
+                <span class="badge bg-info fs-sm">Spatio-temporal</span>
+                <span class="badge bg-info fs-sm">Representation</span>
+              </p>
+              <h5>Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding</h5>
+              <p>Learning general and comprehensive trajectory embeddings that are useful for a wide variety of
+                downstream tasks with the proposed propose Maximum Multi-view Trajectory Entropy Coding (MMTEC).</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Item -->
+        <div class="col">
+          <a class="card card-hover h-100 border-0 bg-secondary rounded-1 text-decoration-none overflow-hidden"
+            href="/publications.html">
+            <div
+              class="card-body d-flex align-items-end position-absolute top-0 start-0 w-100 h-100 opacity-0 bg-size-contain bg-repeat-0 bg-position-center pb-4"
+              style="background-image: url(assets/publications/dot.webp); background-color: #ddd;">
+            </div>
+            <div class="card-body pb-3">
+              <p class="d-flex flex-row gap-2 flex-wrap">
+                <span class="badge bg-primary fs-sm">SIGMOD'24</span>
+                <span class="badge bg-info fs-sm">Spatio-temporal</span>
+                <span class="badge bg-info fs-sm">Diffusion Model</span>
+              </p>
+              <h5>Origin-Destination Travel Time Oracle for Map-based Services</h5>
+              <p>Solving the Origin-Destination (OD) travel time oracle~(ODT-Oracle) problem with a two-stage framework called Diffusion-based Origin-destination Travel Time Estimation (DOT)</p>
+            </div>
+          </a>
+        </div>
+
+        <!-- Item -->
+        <div class="col">
+          <a class="card card-hover h-100 border-0 bg-secondary rounded-1 text-decoration-none overflow-hidden"
+            href="/publications.html">
+            <div
+              class="card-body d-flex align-items-end position-absolute top-0 start-0 w-100 h-100 opacity-0 bg-size-contain bg-repeat-0 bg-position-center pb-4"
+              style="background-image: url(assets/publications/IAGCN.webp); background-color: #ddd;">
+            </div>
+            <div class="card-body pb-3">
+              <p class="d-flex flex-row gap-2 flex-wrap">
+                <span class="badge bg-primary fs-sm">KBS'23</span>
+                <span class="badge bg-info fs-sm">Spatio-temporal</span>
+              </p>
+              <h5>Inductive and Adaptive Graph Convolution Networks Equipped with Constraint Task for Spatial-Temporal
+                Traffic Data Kriging</h5>
+              <p>Proposing an Inductive and Adaptive Graph Convolution Networks (IAGCN) for spatio-temporal traffic data kriging in an inductive manner.</p>
+            </div>
+          </a>
+        </div>
+
+      </div>
+    </section>
+
+
+
+    <!-- Testimonials slider -->
+    <section class="w-100 px-sm-4 mx-auto" style="max-width: 1680px;" data-bs-theme="dark">
+      <div class="position-relative z-2 pt-2 pb-3 py-sm-3 py-md-4 py-lg-5">
+        <div class="position-absolute top-0 start-0 w-100 h-100 rounded-5 d-none d-sm-block"
+          style="background-color: #171a1e;"></div>
+        <div class="position-absolute top-0 start-0 w-100 h-100 d-sm-none" style="background-color: #171a1e;"></div>
+        <div class="container position-relative z-2 py-2 py-md-1 py-lg-0 my-xl-3 my-xxl-5">
+          <div class="row align-items-center justify-content-center">
+            <h2 class="h1 text-center pb-2">Recent Projects</h2>
+            <div class="col-11 col-sm-9 col-md-8 col-lg-7 pb-3">
+
+              <!-- Bided images -->
+              <div class="binded-content">
+
+                <!-- Item -->
+                <div class="binded-item active" id="image1">
+                  <img src="assets/projects/promptgenius-alpha.webp" alt="Image">
+                </div>
+
+                <!-- Items -->
+                <div class="binded-item" id="image2">
+                  <img src="assets/projects/overleafcopilot-device-alpha.webp" alt="Image">
+                </div>
+              </div>
+            </div>
+            <div class="col-11 col-sm-9 col-md-8 col-lg-5 col-xl-4 offset-xl-1">
+              <div class="ps-lg-4 ps-xl-0 mt-lg-n4 mt-xl-n5">
+
+                <!-- Swiper slider -->
+                <div class="swiper" data-swiper-options='{
+                    "spaceBetween": 30,
+                    "loop": true,
+                    "bindedContent": true,
+                    "pagination": {
+                      "el": ".testimonials-count",
+                      "type": "fraction"
+                    },
+                    "navigation": {
+                      "prevEl": "#prev-testimonial",
+                      "nextEl": "#next-testimonial"
+                    },
+                    "autoplay": {
+                      "delay": 5000,
+                      "disableOnInteraction": false
+                    }
+                  }'>
+                  <div class="swiper-wrapper">
+
+                    <!-- Item -->
+                    <div class="swiper-slide" data-swiper-binded="#image1">
+                      <h3 class="h4 fw-bold pb-1 pb-sm-2">Prompt Genius</h3>
+                      <p class="text-body lead mb-3">All-purpose prompts with hierarchical classification system and
+                        multi-language support.</p>
+                      <a class="btn btn-outline-secondary btn-sm" href="/projects.html">
+                        Learn More
+                      </a>
+                    </div>
+
+                    <!-- Item -->
+                    <div class="swiper-slide" data-swiper-binded="#image2">
+                      <h3 class="h4 fw-bold pb-1 pb-sm-2">Overleaf Copilot</h3>
+                      <p class="text-body lead mb-3">Powered by Large Language Models, OverleafCopilot is a plugin
+                        designed to elevate the academic writing experience on Overleaf.</p>
+                      <a class="btn btn-outline-secondary btn-sm" href="/projects.html">
+                        Learn More
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Swiper controls (Prev / Next) -->
+          <div class="d-flex align-items-center justify-content-center pt-4 pt-md-5 mt-2 mt-sm-3 mt-md-0 mt-xl-2">
+            <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle me-3" type="button"
+              id="prev-testimonial" aria-label="Prev">
+              <i class="ai-arrow-left"></i>
+            </button>
+            <div class="testimonials-count text-body fw-medium flex-shrink-0 text-center" style="width: 2.5rem;"></div>
+            <button class="btn btn-icon btn-sm btn-outline-primary rounded-circle ms-3" type="button"
+              id="next-testimonial" aria-label="Next">
+              <i class="ai-arrow-right"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <!-- Footer -->
+  <footer class="footer py-5">
+    <div
+      class="container d-flex flex-column flex-lg-row justify-content-between align-items-center pt-1 py-sm-2 py-lg-4 py-xl-5">
+      <div class="d-flex gap-3 mb-3 mb-sm-4 mb-lg-0">
+        <a class="btn btn-outline-secondary btn-icon btn-sm" href="https://github.com/Logan-Lin">
+          <i class="ai-github"></i>
+        </a>
+        <a class="btn btn-outline-secondary btn-icon btn-sm" href="mailto:ylincs@bjtu.edu.cn">
+          <i class="ai-mail"></i>
+        </a>
+      </div>
+      <div class="nav flex-sm-nowrap justify-content-center mb-3 mb-sm-4 mb-lg-0">
+        <a class="nav-link fw-normal border-end-lg px-2 px-sm-3 px-lg-4 py-1 py-sm-0 mx-1 mx-sm-0 mx-xl-2"
+          href="https://scholar.google.com/citations?user=nHMmG2UAAAAJ">Google Scholar</a>
+        <a class="nav-link fw-normal px-2 px-sm-3 px-lg-4 py-1 py-sm-0 mx-1 mx-sm-0 mx-xl-2"
+          href="https://dblp.org/pid/27/586-6.html">DBLP</a>
+        <a class="nav-link fw-normal border-start-lg  px-2 px-sm-3 px-lg-4 py-1 py-sm-0 mx-1 mx-sm-0 mx-xl-2"
+          href="https://orcid.org/0000-0002-2320-9777">ORCID</a>
+      </div>
+      <p class="text-body-secondary mb-0">&copy; Yan Lin</p>
     </div>
+  </footer>
+
+
+  <!-- Back to top button -->
+  <a class="btn-scroll-top" href="#top" data-scroll aria-label="Scroll back to top">
+    <svg viewBox="0 0 40 40" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+      <circle cx="20" cy="20" r="19" fill="none" stroke="currentColor" stroke-width="1.5" stroke-miterlimit="10">
+      </circle>
+    </svg>
+    <i class="ai-arrow-up"></i>
+  </a>
+
+
+  <!-- Vendor scripts: JS libraries and plugins -->
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/aos/dist/aos.js"></script>
+  <script src="assets/vendor/simplebar/dist/simplebar.min.js"></script>
+
+  <!-- Bootstrap + Theme scripts -->
+  <script src="assets/js/theme.min.js"></script>
 </body>
-<script src="script.js"></script>
 
 </html>
