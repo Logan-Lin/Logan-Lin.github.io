@@ -1,0 +1,19 @@
+{
+  "name": "Yan Lin's Scholar Page",
+  "short_name": "YanLinPage",
+  "icons": [
+    {
+      "src": "assets/app-icons/icon-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "assets/app-icons/icon-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#448c74",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
