@@ -35,13 +35,14 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Institute: School of Computer and Information Technology
 - Major: Computer Science and Technology
 
-## Research Field
+## Research Interest
 
 - Data Mining
 	- Spatio-temporal Data & Traffic Data Mining
 - Deep Learning
 - Representation Learning
 
+---
 ## Selected Publications
 
 [[publications/index|Full Publication List]]
@@ -54,6 +55,12 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - [[DOT]]: Origin-Destination Travel Time Oracle for Map-based Services. [Paper](https://dl.acm.org/doi/10.1145/3617337), [Preprint](https://arxiv.org/abs/2307.03048), [Code](https://github.com/Logan-Lin/DOT)
 	- Authors: **Yan Lin**, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin
 	- Conference: SIGMOD, 2024, 1(3), Article No. 217.
+- [[CACSR]]: Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25546), [Code](https://github.com/LetianGong/CACSR)
+	- Authors: Letian Gong, Youfang Lin, Shengnan Guo, **Yan Lin**, Tianyi Wang, Erwen Zheng, Zeyu Zhou, Huaiyu Wan.
+	- Conference: AAAI, 2023, 37(4), 4276-4283.
+- [[WITRAN]]: Water-wave Information Transmission and Recurrent Acceleration Network for Long-range Time Series Forecasting. [Paper](https://openreview.net/forum?id=y08bkEtNBK), [Code](https://github.com/Water2sea/WITRAN)
+	- Authors: Yuxin Jia, Youfang Lin, Xinyan Hao, **Yan Lin**, Shengnan Guo, Huaiyu Wan
+	- Conference: NeurIPS, URL: https://openreview.net/forum?id=y08bkEtNBK, 2023.
 
 ### Journal
 
@@ -63,33 +70,44 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - [[MMTEC]]: Pre-training General Trajectory Embeddings with Maximum Multi-view Entropy Coding. [Paper](https://ieeexplore.ieee.org/abstract/document/10375102), [Preprint](https://arxiv.org/abs/2207.14539), [Code](https://github.com/Logan-Lin/MMTEC)
 	- Authors: **Yan Lin**, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S. Jensen, Youfang Lin
 	- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2023.3347513, 2023.
+- [[IAGCN]]: Inductive and Adaptive Graph Convolution Networks Equipped with Constraint Task for Spatial-Temporal Traffic Data Kriging. [Paper](https://www.sciencedirect.com/science/article/pii/S0950705123010730), [Code](https://github.com/wtl52656/IAGCN)
+	- Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiji Zhao, Xiyuan Jin, Zhihao Wu, Huaiyu Wan
+	- Journal: Knowledge-Based Systems (KBS), 2024, 284: 111325.
+- [[STCCR]]: Spatial-Temporal Cross-View Contrastive Pre-Training for Check-in Sequence Representation Learning. [Preprint](https://arxiv.org/abs/2407.15899)
+	- Authors: Letian Gong, Huaiyu Wan, Shengnan Guo, Li Xiucheng, **Yan Lin**, Erwen Zheng, Tianyi Wang, Zeyu Zhou, Youfang Lin
+	- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3434565, 2024.
+- [[MM-STGED]]: Micro-Macro Spatial-Temporal Graph-based Encoder-Decoder for Map-Constrained Trajectory Recovery. [Preprint](https://arxiv.org/abs/2404.19141), [Code](https://github.com/wtl52656/MM-STGED)
+	- Authors: Tonglong Wei, Youfang Lin, **Yan Lin**, Shengnan Guo, Lan Zhang, Huaiyu Wan
+	- IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
+---
 ## Selected Projects
 
 [[projects/index|Full Project List]]
 
 ### Principal Investigator
 
-- [[2021YJS030]]: Research on *Prediction of User Travel Destination and Travel Time Based on Trajectory Representation Learning* (05/2021-05/2023)
+- [[Pre-TrajRL]]: Research on *Prediction of User Travel Destination and Travel Time Based on Trajectory Representation Learning* (05/2021-05/2023)
 	- Funding: The Fundamental Research Funds for the Central Universities of China
-- [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (10/2023-Present)
+- [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (10/2023-Present) [Website](https://www.overleafcopilot.com/)
 	- Personal interest project
 
 ### Participant
 
-- [[InverseDisMat]]: Research on *Inverse Design of Materials Using Diffusion Probabilistic Models* (04/2024-03/2026)
+- [[InvDisMatter]]: Research on *Inverse Design of Materials Using Diffusion Probabilistic Models* (04/2024-03/2026) [Website](https://villumfonden.dk/en/projekt/inverse-design-materials-using-diffusion-probabilistic-models)
 	- Funding: The Villum Foundation
-- [[62272033]]: Research on *Pre-training Representation Learning Methods of Spatial-temporal Trajectory Data for Traffic Prediction* (01/2023-12/2025)
+- [[PreRL-Traj]]: Research on *Pre-training Representation Learning Methods of Spatial-temporal Trajectory Data for Traffic Prediction* (01/2023-12/2025)
 	- Funding: The National Natural Science Foundation of China
-- [[62372031]]: Research on *Spatial-temporal Trajectory Generation and Representation Learning Methods for Sparsity Problems* (01/2024-12/2026)
+- [[STTrajGen]]: Research on *Spatial-temporal Trajectory Generation and Representation Learning Methods for Sparsity Problems* (01/2024-12/2026)
 	- Funding: The National Natural Science Foundation of China
 
+---
 ## Services
 
 ### Mentoring Activities
 
-- Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[2021YJS030]].
-- Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[62372031]].
+- Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[Pre-TrajRL]].
+- Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[STTrajGen]].
 
 ### Professional Services
 
@@ -114,6 +132,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- AAAI Conference on Artificial Intelligence
 	- Virtual, Feb 08 2021
 
+---
 ## Prizes and Awards
 
 - Tencent Rhino-Bird Elite Talent 2022

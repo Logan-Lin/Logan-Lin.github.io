@@ -1,6 +1,8 @@
 ---
 title: DOT
 tags:
+  - Spatiotemporal
+  - ETA
 ---
 ![[dot.webp]]
 

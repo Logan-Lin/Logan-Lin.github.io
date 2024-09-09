@@ -1,5 +1,5 @@
 ---
-title: Inverse Disordered Material Design
+title: 
 tags:
 ---
 This project focuses on developing diffusion probabilistic models to first understand the relationship between chemistry/structure and material properties, then enable the inverse design of new materials with specific properties. This project currently supports my postdoctoral research position.

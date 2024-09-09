@@ -1,5 +1,5 @@
 ---
-title: 2021YJS030
+title: 
 tags:
 ---
 This project applies representation learning to trajectory data to transform original features into high-level information, improving the performance of downstream tasks such as travel time and destination prediction.

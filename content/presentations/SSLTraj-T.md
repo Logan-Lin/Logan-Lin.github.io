@@ -2,7 +2,7 @@
 title: 
 tags:
 ---
-# Slides
+## Slides
 
 ![[Talk on SpatialDI 2024.pdf]]
 
