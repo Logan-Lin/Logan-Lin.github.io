@@ -1,6 +1,8 @@
 ---
 title: MMTEC
 tags:
+  - Spatiotemporal
+  - Representation
 ---
 ![[mmtec.webp]]
 

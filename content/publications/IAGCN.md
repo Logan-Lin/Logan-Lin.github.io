@@ -1,6 +1,7 @@
 ---
 title: 
 tags:
+  - Spatiotemporal
 ---
 ![[iagcn.webp]]
 

@@ -12,25 +12,25 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 ## Professional Experience
 
-**[Aalborg University](https://www.aau.dk/), Denmark (01/06/2024-31/05/2025)**
+**[Aalborg University](https://www.aau.dk/), Denmark (Jun 2024-Present)**
 - Position: Postdoc
 - Institute: [Department of Computer Science](https://www.cs.aau.dk/)
 
 ## Education Background
 
-**Beijing Jiaotong University, China (01/09/2019-29/03/2024)**
+**Beijing Jiaotong University, China (Sep 2019-Mar 2024)**
 - Position: PhD
 - Institute: School of Computer and Information Technology
 - Major: Computer Science and Technology  
 - Supervisor: Huaiyu Wan
 
-**Aalborg University, Denmark (08/09/2022-29/09/2023)**
+**Aalborg University, Denmark (Sep 2022-Sep 2023)**
 - Position: Visiting PhD Student
 - Institute: Computer Science and Technology
 - Major: Computer Science and Technology
 - Supervisor: Bin Yang, Jilin Hu
 
-**Beijing Jiaotong University, China (01/09/2015-01/06/2019)**
+**Beijing Jiaotong University, China (Sep 2015-Jun 2019)**
 - Position: Bachelor
 - Institute: School of Computer and Information Technology
 - Major: Computer Science and Technology
@@ -87,18 +87,18 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 ### Principal Investigator
 
-- [[Pre-TrajRL]]: Research on *Prediction of User Travel Destination and Travel Time Based on Trajectory Representation Learning* (05/2021-05/2023)
+- [[Pre-TrajRL]]: Research on *Prediction of User Travel Destination and Travel Time Based on Trajectory Representation Learning* (May 2021-May 2023)
 	- Funding: The Fundamental Research Funds for the Central Universities of China
-- [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (10/2023-Present) [Website](https://www.overleafcopilot.com/)
+- [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (Oct 2023-Present) [Website](https://www.overleafcopilot.com/)
 	- Personal interest project
 
 ### Participant
 
-- [[InvDisMatter]]: Research on *Inverse Design of Materials Using Diffusion Probabilistic Models* (04/2024-03/2026) [Website](https://villumfonden.dk/en/projekt/inverse-design-materials-using-diffusion-probabilistic-models)
+- [[InvDisMatter]]: Research on *Inverse Design of Materials Using Diffusion Probabilistic Models* (Apr 2024-Mar 2026) [Website](https://villumfonden.dk/en/projekt/inverse-design-materials-using-diffusion-probabilistic-models)
 	- Funding: The Villum Foundation
-- [[PreRL-Traj]]: Research on *Pre-training Representation Learning Methods of Spatial-temporal Trajectory Data for Traffic Prediction* (01/2023-12/2025)
+- [[PreRL-Traj]]: Research on *Pre-training Representation Learning Methods of Spatial-temporal Trajectory Data for Traffic Prediction* (Jan 2023-Dec 2025)
 	- Funding: The National Natural Science Foundation of China
-- [[STTrajGen]]: Research on *Spatial-temporal Trajectory Generation and Representation Learning Methods for Sparsity Problems* (01/2024-12/2026)
+- [[STTrajGen]]: Research on *Spatial-temporal Trajectory Generation and Representation Learning Methods for Sparsity Problems* (Jan 2024-Dec 2026)
 	- Funding: The National Natural Science Foundation of China
 
 ---

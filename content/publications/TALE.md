@@ -1,6 +1,8 @@
 ---
 title: 
 tags:
+  - Spatiotemporal
+  - Representation
 ---
 ![[tale.webp]]
 
