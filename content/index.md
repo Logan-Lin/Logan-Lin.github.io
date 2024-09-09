@@ -10,13 +10,13 @@ title: Yan Lin
 
 I am currently a postdoctoral researcher in the Department of Computer Science at Aalborg University. I received my PhD and Bachelor's degrees from Beijing Jiaotong University, China.
 
-# Professional Experience
+## Professional Experience
 
 **[Aalborg University](https://www.aau.dk/), Denmark (01/06/2024-31/05/2025)**
 - Position: Postdoc
 - Institute: [Department of Computer Science](https://www.cs.aau.dk/)
 
-# Education Background
+## Education Background
 
 **Beijing Jiaotong University, China (01/09/2019-29/03/2024)**
 - Position: PhD
@@ -35,18 +35,18 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Institute: School of Computer and Information Technology
 - Major: Computer Science and Technology
 
-# Research Field
+## Research Field
 
 - Data Mining
 	- Spatio-temporal Data & Traffic Data Mining
 - Deep Learning
 - Representation Learning
 
-# Selected Publications
+## Selected Publications
 
 [[publications/index|Full Publication List]]
 
-## Conference
+### Conference
 
 - [[CTLE]]: Pre-training Context and Time Aware Location Embeddings from Spatial-Temporal Trajectories for User Next Location Prediction. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/16548), [Code](https://github.com/Logan-Lin/CTLE)
 	- Authors: **Yan Lin**, Huaiyu Wan, Shengnan Guo, Youfang Lin
@@ -55,7 +55,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- Authors: **Yan Lin**, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin
 	- Conference: SIGMOD, 2024, 1(3), Article No. 217.
 
-## Journal
+### Journal
 
 - [[TALE]]: Pre-training time-aware location embeddings from spatial-temporal trajectories. [Paper](https://ieeexplore.ieee.org/abstract/document/9351627), [Code](https://github.com/Logan-Lin/TALE)
 	- Authors: Huaiyu Wan, **Yan Lin**, Shengnan Guo, Youfang Lin
@@ -64,18 +64,18 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- Authors: **Yan Lin**, Huaiyu Wan, Shengnan Guo, Jilin Hu, Christian S. Jensen, Youfang Lin
 	- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2023.3347513, 2023.
 
-# Selected Projects
+## Selected Projects
 
 [[projects/index|Full Project List]]
 
-## Principal Investigator
+### Principal Investigator
 
 - [[2021YJS030]]: Research on *Prediction of User Travel Destination and Travel Time Based on Trajectory Representation Learning* (05/2021-05/2023)
 	- Funding: The Fundamental Research Funds for the Central Universities of China
 - [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (10/2023-Present)
 	- Personal interest project
 
-## Participant
+### Participant
 
 - [[InverseDisMat]]: Research on *Inverse Design of Materials Using Diffusion Probabilistic Models* (04/2024-03/2026)
 	- Funding: The Villum Foundation
@@ -84,20 +84,20 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - [[62372031]]: Research on *Spatial-temporal Trajectory Generation and Representation Learning Methods for Sparsity Problems* (01/2024-12/2026)
 	- Funding: The National Natural Science Foundation of China
 
-# Services
+## Services
 
-## Mentoring Activities
+### Mentoring Activities
 
 - Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[2021YJS030]].
 - Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[62372031]].
 
-## Professional Services
+### Professional Services
 
 - ACM, CCF member
 - Reviewer for several journals, including ACM Transactions on Intelligent Systems and Technology (TIST), Springer Machine Learning, and IEEE Transactions on Vehicular Technology (TVT).
 - A member of program committees of several international conferences, including ICLR, KDD, AAAI, and CVPR.
 
-## Selected Presentations
+### Selected Presentations
 
 [[presentations/index|Full Presentation List]]
 
@@ -114,19 +114,19 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- AAAI Conference on Artificial Intelligence
 	- Virtual, Feb 08 2021
 
-# Prizes and Awards
+## Prizes and Awards
 
 - Tencent Rhino-Bird Elite Talent 2022
 - Granted by the State Scholarship Fund of China Scholarship Council 2022
 - First-class Academic Scholarship 2020, 2021, 2023
 - National Scholarship of China 2019
 
-# Skills
+## Skills
 
-## Computer Science
+### Computer Science
 
 Skilled in computer science theory and its applications, with a strong focus on machine learning theory and data mining techniques. Possessing extensive experience in designing and implementing machine learning and deep learning models.
 
-## Programming
+### Programming
 
 Proficient in Python, JavaScript, and HTML, with additional experience in C++ and Java.

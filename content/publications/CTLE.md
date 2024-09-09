@@ -1,6 +1,8 @@
 ---
 title: CTLE
 tags:
+  - Spatiotemporal
+  - Representation
 ---
 ![[ctle.webp]]
 
