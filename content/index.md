@@ -81,7 +81,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
 ---
-## Selected Projects
+## Selected Projects 
 
 [[projects/index|Full Project List]]
 
@@ -104,17 +104,6 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 ---
 ## Services
 
-### Mentoring Activities
-
-- Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[Pre-TrajRL]].
-- Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[STTrajGen]].
-
-### Professional Services
-
-- ACM, CCF member
-- Reviewer for several journals, including ACM Transactions on Intelligent Systems and Technology (TIST), Springer Machine Learning, and IEEE Transactions on Vehicular Technology (TVT).
-- A member of program committees of several international conferences, including ICLR, KDD, AAAI, and CVPR.
-
 ### Selected Presentations
 
 [[presentations/index|Full Presentation List]]
@@ -131,6 +120,17 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - [[CLTE-PO]]: *Pre-training Context and Time Aware Location Embeddings from Spatial-Temporal Trajectories for User Next Location Prediction*, Paper Oral
 	- AAAI Conference on Artificial Intelligence
 	- Virtual, Feb 08 2021
+
+### Professional Services
+
+- ACM, CCF member
+- Reviewer for several journals, including ACM Transactions on Intelligent Systems and Technology (TIST), Springer Machine Learning, and IEEE Transactions on Vehicular Technology (TVT).
+- A member of program committees of several international conferences, including ICLR, KDD, AAAI, and CVPR.
+
+### Mentoring Activities
+
+- Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[Pre-TrajRL]].
+- Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[STTrajGen]].
 
 ---
 ## Prizes and Awards
