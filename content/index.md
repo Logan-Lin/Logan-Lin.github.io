@@ -38,9 +38,10 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 ## Research Interest
 
 - Data Mining
-	- Spatio-temporal Data & Traffic Data Mining
+	- [[ST-DM|Spatio-temporal Data Mining]]
+	- [[Traj-DM|Trajectory Data Mining]]
 - Deep Learning
-- Representation Learning
+- [[RepL|Representation Learning]]
 
 ---
 ## Selected Publications
