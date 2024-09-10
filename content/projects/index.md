@@ -1,6 +1,5 @@
 ---
 title: Projects
-draft: false
 tags:
 ---
 ## Principal Investigator
@@ -9,6 +8,9 @@ tags:
 - Funding: The Fundamental Research Funds for the Central Universities of China
 
 [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (Oct 2023-Present) [Website](https://www.overleafcopilot.com/)
+- Personal interest project
+
+[[PromptGenius]]: Development of *PromptGenius - All-purpose prompts for LLMs* (Oct 2022-Sep 2023) [Website](https://www.promptgenius.site/)
 - Personal interest project
 
 ## Participant
