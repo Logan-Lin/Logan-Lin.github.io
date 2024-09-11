@@ -1,9 +1,8 @@
 ---
 title: MMTEC
-tags:
-  - Spatiotemporal
-  - Representation
 ---
+> Topic: [[Spatiotemporal Data Mining]], [[Trajectory Data Mining]], [[Representation Learning]]
+
 ![[mmtec.webp]]
 
 Learning general and comprehensive trajectory embeddings that are useful for a wide variety of downstream tasks with the proposed propose Maximum Multi-view Trajectory Entropy Coding (MMTEC).

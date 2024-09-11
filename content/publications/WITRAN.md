@@ -1,5 +1,4 @@
 ---
-title: 
-tags:
-  - Time-series
+title:
 ---
+> Topic: [[Time Series]]

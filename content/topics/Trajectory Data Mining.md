@@ -1,5 +1,5 @@
 ---
-title: Trajectory Data Mining
+title: 
 tags:
 ---
 ![[traj-dm.webp]]

@@ -1,5 +1,5 @@
 ---
-title: Spatiotemporal Data Mining
+title: 
 tags:
 ---
 ![[st-dm.webp]]
