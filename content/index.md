@@ -167,3 +167,8 @@ Skilled in computer science theory and its applications, with a strong focus on 
 ### Programming
 
 Proficient in Python, JavaScript, and HTML, with additional experience in C++ and Java.
+
+---
+## Resource
+
+**PhD Thesis**: *Self-supervised Learning of Spatial-temporal Trajectory Data*. [[PhD-thesis.pdf|Paper]], [[PhD-defense.pdf|Defense Slides]]
