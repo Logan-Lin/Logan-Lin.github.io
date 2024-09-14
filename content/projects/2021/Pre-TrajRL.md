@@ -2,6 +2,8 @@
 title: 
 tags:
 ---
+> Topic: [[Spatiotemporal Data Mining]], [[Representation Learning]], [[Trajectory Data Mining]]
+
 This project applies representation learning to trajectory data to transform original features into high-level information, improving the performance of downstream tasks such as travel time and destination prediction.
 
 **My major contributions include:** 

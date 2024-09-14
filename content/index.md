@@ -42,6 +42,8 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 	- [[Trajectory Data Mining|Trajectory Data Mining]]
 - Deep Learning
 - [[Representation Learning|Representation Learning]]
+- [[Time Series]]
+- [[AI4Science]]
 
 ---
 ## Selected Publications

@@ -2,6 +2,8 @@
 title: 
 tags:
 ---
+> Topic: [[Spatiotemporal Data Mining]], [[Representation Learning]], [[Trajectory Data Mining]]
+
 This project aims to propose pre-training representation learning methods for spatial-temporal trajectory data, modeling multiple features to improve traffic prediction tasks. It demonstrates how trajectory representation learning can enhance traffic data mining.
 
 **My major contributions include:**

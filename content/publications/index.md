@@ -44,11 +44,11 @@ tags:
 - Authors: Tonglong Wei, Youfang Lin, **Yan Lin**, Shengnan Guo, Lan Zhang, Huaiyu Wan
 - IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
-Adversarial Self-Attentive Time-Variant Neural Networks for Multi-Step Time Series Forecasting. [Paper](https://www.sciencedirect.com/science/article/pii/S0957417423012241)
+[[ASATVN]]: Adversarial Self-Attentive Time-Variant Neural Networks for Multi-Step Time Series Forecasting. [Paper](https://www.sciencedirect.com/science/article/pii/S0957417423012241)
 - Authors: Changxia Gao, Ning Zhang, Youru Li, **Yan Lin**, Huaiyu Wan
 - Journal: Expert Systems with Applications (ESWA), 2023, 231: 120722.
 
-Multi-scale adaptive attention-based time-variant neural networks for multi-step time series forecasting. [Paper](https://link.springer.com/article/10.1007/s10489-023-05057-7)
+[[MATVN]]: Multi-scale adaptive attention-based time-variant neural networks for multi-step time series forecasting. [Paper](https://link.springer.com/article/10.1007/s10489-023-05057-7)
 - Authors: Changxia Gao, Ning Zhang, Youru Li, **Yan Lin**, Huaiyu Wan
 - Journal: Applied Intelligence (APIN), 2023, 53: 28974–28993.
 

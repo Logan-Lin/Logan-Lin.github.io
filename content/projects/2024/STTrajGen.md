@@ -2,6 +2,8 @@
 title: 
 tags:
 ---
+> Topic: [[Spatiotemporal Data Mining]], [[Representation Learning]], [[Trajectory Data Mining]]
+
 This project explores how to generate high-quality spatial-temporal trajectory data and corresponding representations to address sparsity-related issues, thereby supporting a variety of downstream tasks.
 
 **My major contributions include:**
