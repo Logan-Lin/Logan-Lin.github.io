@@ -143,7 +143,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 ### Professional Services
 
-- ACM, CCF member
+- IEEE, ACM, CCF member
 - Reviewer for several journals, including ACM Transactions on Intelligent Systems and Technology (TIST), Springer Machine Learning, and IEEE Transactions on Vehicular Technology (TVT).
 - A member of program committees of several international conferences, including ICLR, KDD, AAAI, and CVPR.
 
