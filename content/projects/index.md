@@ -10,7 +10,7 @@ tags:
 [[OverleafCopilot]]: Development of *OverleafCopilot - Empowering Academic Writing in Overleaf with Large Language Models* (Oct 2023-Present) [Website](https://www.overleafcopilot.com/)
 - Personal interest project
 
-[[PromptGenius]]: Development of *PromptGenius - All-purpose prompts for LLMs* (Oct 2022-Sep 2023) [Website](https://www.promptgenius.site/)
+[[PromptGenius]]: Development of *PromptGenius - All-purpose prompts for LLMs* (Oct 2022-Sep 2023) [Website](https://www.promptgenius.site/), [Source Code](https://github.com/wenhaomin/ChatGPT-PromptGenius)
 - Personal interest project
 
 ## Participant
