@@ -3,9 +3,9 @@ title:
 ---
 > Topic: [[Spatiotemporal Data Mining]], [[Trajectory Data Mining]]
 
-Diff-RNTraj: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369)
+[[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10679607/20b3hlbjBOo), [Code](https://github.com/wtl52656/Diff-RNTraj)
 - Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiheng Huang, Chenyang Xiang, Yuqing Bai, Menglu Ya, Huaiyu Wan
-- IEEE TKDE, 2024.
+- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3460051, 2024.
 
 ![[diff-rntraj.webp]]
 

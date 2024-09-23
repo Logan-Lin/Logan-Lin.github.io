@@ -5,7 +5,7 @@ title:
 
 Micro-Macro Spatial-Temporal Graph-based Encoder-Decoder for Map-Constrained Trajectory Recovery. [Preprint](https://arxiv.org/abs/2404.19141), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10517676/1WCj0j0FljW), [Code](https://github.com/wtl52656/MM-STGED)
 - Authors: Tonglong Wei, Youfang Lin, **Yan Lin**, Shengnan Guo, Lan Zhang, Huaiyu Wan
-- IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
+- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
 ![[mm-stged.webp]]
 

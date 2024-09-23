@@ -42,7 +42,7 @@ tags:
 
 [[MM-STGED]]: Micro-Macro Spatial-Temporal Graph-based Encoder-Decoder for Map-Constrained Trajectory Recovery. [Preprint](https://arxiv.org/abs/2404.19141), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10517676/1WCj0j0FljW), [Code](https://github.com/wtl52656/MM-STGED)
 - Authors: Tonglong Wei, Youfang Lin, **Yan Lin**, Shengnan Guo, Lan Zhang, Huaiyu Wan
-- IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
+- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
 [[ASATVN]]: Adversarial Self-Attentive Time-Variant Neural Networks for Multi-Step Time Series Forecasting. [Paper](https://www.sciencedirect.com/science/article/pii/S0957417423012241)
 - Authors: Changxia Gao, Ning Zhang, Youru Li, **Yan Lin**, Huaiyu Wan
@@ -52,9 +52,9 @@ tags:
 - Authors: Changxia Gao, Ning Zhang, Youru Li, **Yan Lin**, Huaiyu Wan
 - Journal: Applied Intelligence (APIN), 2023, 53: 28974–28993.
 
-[[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369)
+[[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10679607/20b3hlbjBOo), [Code](https://github.com/wtl52656/Diff-RNTraj)
 - Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiheng Huang, Chenyang Xiang, Yuqing Bai, Menglu Ya, Huaiyu Wan
-- IEEE TKDE, 2024.
+- Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3460051, 2024.
 
 ## In-progress
 
