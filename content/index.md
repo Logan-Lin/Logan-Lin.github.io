@@ -90,9 +90,9 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Authors: Tonglong Wei, Youfang Lin, **Yan Lin**, Shengnan Guo, Lan Zhang, Huaiyu Wan
 - IEEE TKDE, DOI: 10.1109/TKDE.2024.3396158, 2024.
 
-[[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369)
+[[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10679607/20b3hlbjBOo), [Code](https://github.com/wtl52656/Diff-RNTraj)
 - Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiheng Huang, Chenyang Xiang, Yuqing Bai, Menglu Ya, Huaiyu Wan
-- IEEE TKDE, 2024.
+- IEEE TKDE, DOI: 10.1109/TKDE.2024.3460051, 2024.
 
 ---
 ## Selected Projects 
