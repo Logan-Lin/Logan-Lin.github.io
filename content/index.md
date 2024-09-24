@@ -154,7 +154,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 ### Teaching
 
-Guest Lecture: *Self-supervised Learning of Trajectory Data*
+Guest Lecture: *Self-supervised Learning of Trajectory Data*, [[Self-supervised Learning of Trajectory Data.pdf|Slides]]
 - Class: *Time and Spatial Analysis*@Aalborg University
 - Aalborg, Denmark, Sep 24 2024
 
