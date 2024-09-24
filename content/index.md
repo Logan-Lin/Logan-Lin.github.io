@@ -152,6 +152,18 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Mentoring two Master’s students, i.e., Wenchuang Peng and Yuan Wei, in the project [[Pre-TrajRL]].
 - Mentoring two Ph.D. students, i.e., Tonglong Wei and Letian Gong, in the project [[STTrajGen]].
 
+### Teaching
+
+Guest Lecture: *Self-supervised Learning of Trajectory Data*
+- Class: *Time and Spatial Analysis*@Aalborg University
+- Aalborg, Denmark, Sep 24 2024
+
+Teaching Assistant: *Deep Learning*@Beijing Jiaotong University
+- Beijing, China, Fall 2021
+
+Teaching Assistant: *Machine Learning*@Beijing Jiaotong University
+- Beijing, China, Fall 2021
+
 ---
 ## Prizes and Awards
 
