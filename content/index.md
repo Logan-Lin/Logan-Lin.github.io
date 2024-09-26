@@ -22,13 +22,13 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Position: PhD
 - Institute: School of Computer and Information Technology
 - Major: Computer Science and Technology  
-- Supervisor: Huaiyu Wan
+- Supervisor: Prof. Huaiyu Wan
 
 **Aalborg University, Denmark (Sep 2022-Sep 2023)**
 - Position: Visiting PhD Student
 - Institute: Computer Science and Technology
 - Major: Computer Science and Technology
-- Supervisor: Bin Yang, Jilin Hu
+- Supervisor: Prof. Bin Yang, Prof. Jilin Hu
 
 **Beijing Jiaotong University, China (Sep 2015-Jun 2019)**
 - Position: Bachelor
@@ -154,15 +154,15 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 
 ### Teaching
 
-Guest Lecture: *Self-supervised Learning of Trajectory Data*, [[Self-supervised Learning of Trajectory Data.pdf|Slides]]
-- Class: *Time and Spatial Analysis*@Aalborg University
-- Aalborg, Denmark, Sep 24 2024
+**Guest Lecture:** *Self-supervised Learning of Trajectory Data*, [[Self-supervised Learning of Trajectory Data.pdf|Slides]]
+- Curriculum: *Time and Spatial Analysis*@Aalborg University
+- Sep 24 2024, Aalborg, Denmark
 
-Teaching Assistant: *Deep Learning*@Beijing Jiaotong University
-- Beijing, China, Fall 2021
+**Teaching Assistant:** *Deep Learning*@Beijing Jiaotong University
+- Fall 2021, Beijing, China
 
-Teaching Assistant: *Machine Learning*@Beijing Jiaotong University
-- Beijing, China, Fall 2021
+**Teaching Assistant:** *Machine Learning*@Beijing Jiaotong University
+- Fall 2021, Beijing, China
 
 ---
 ## Prizes and Awards
