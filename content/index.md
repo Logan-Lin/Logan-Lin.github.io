@@ -60,6 +60,10 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Authors: **Yan Lin**, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin
 - Conference: SIGMOD, 2024, 1(3), Article No. 217.
 
+[[Mobility-LLM]]: Learning Visiting Intentions and Travel Preference from Human Mobility Data with Large Language Models.
+- Authors: Letian Gong[^Eq], **Yan Lin**[^Eq], Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
+- Conference: NeurIPS, 2024.
+
 [[CACSR]]: Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25546), [Code](https://github.com/LetianGong/CACSR)
 - Authors: Letian Gong, Youfang Lin, Shengnan Guo, **Yan Lin**, Tianyi Wang, Erwen Zheng, Zeyu Zhou, Huaiyu Wan.
 - Conference: AAAI, 2023, 37(4), 4276-4283.
@@ -93,6 +97,8 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 [[Diff-RNTraj]]: A Structure-aware Diffusion Model for Road Network-constrained Trajectory Generation. [Preprint](https://arxiv.org/abs/2402.07369), [Paper](https://www.computer.org/csdl/journal/tk/5555/01/10679607/20b3hlbjBOo), [Code](https://github.com/wtl52656/Diff-RNTraj)
 - Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiheng Huang, Chenyang Xiang, Yuqing Bai, Menglu Ya, Huaiyu Wan
 - Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3460051, 2024.
+
+[^Eq]: Equal contribution.
 
 ---
 ## Selected Projects 

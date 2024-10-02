@@ -13,6 +13,10 @@ tags:
 - Authors: **Yan Lin**, Huaiyu Wan, Jilin Hu, Shengnan Guo, Bin Yang, Christian S. Jensen, Youfang Lin
 - Conference: SIGMOD, 2024, 1(3), Article No. 217.
 
+[[Mobility-LLM]]: Learning Visiting Intentions and Travel Preference from Human Mobility Data with Large Language Models.
+- Authors: Letian Gong[^Eq], **Yan Lin**[^Eq], Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
+- Conference: NeurIPS, 2024.
+
 [[CACSR]]: Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25546), [Code](https://github.com/LetianGong/CACSR)
 - Authors: Letian Gong, Youfang Lin, Shengnan Guo, **Yan Lin**, Tianyi Wang, Erwen Zheng, Zeyu Zhou, Huaiyu Wan.
 - Conference: AAAI, 2023, 37(4), 4276-4283.
@@ -63,3 +67,5 @@ tags:
 - TrajFM: A Vehicle Trajectory Foundation Model for Region and Task Transferability. [Preprint](https://arxiv.org/abs/2408.15251)
 - UniTE: A Survey and Unified Pipeline for Pre-training ST Trajectory Embeddings. [Preprint](https://arxiv.org/abs/2407.12550)
 - UVTM: Universal Vehicle Trajectory Modeling with ST Feature Domain Generation. [Preprint](https://arxiv.org/abs/2402.07232)
+
+[^Eq]: Equal contribution.
