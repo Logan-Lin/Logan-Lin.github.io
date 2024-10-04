@@ -63,8 +63,6 @@ tags:
 ## In-progress
 
 - TrajCogn: Leveraging LLMs for Cognizing Movement Patterns and Travel Purposes from Trajectories. [Preprint](https://arxiv.org/abs/2405.12459)
-- PTrajM: Efficient and Semantic-rich Trajectory Learning with Pretrained Trajectory-Mamba. [Preprint](https://arxiv.org/abs/2408.04916)
-- TrajFM: A Vehicle Trajectory Foundation Model for Region and Task Transferability. [Preprint](https://arxiv.org/abs/2408.15251)
 - UniTE: A Survey and Unified Pipeline for Pre-training ST Trajectory Embeddings. [Preprint](https://arxiv.org/abs/2407.12550)
 - UVTM: Universal Vehicle Trajectory Modeling with ST Feature Domain Generation. [Preprint](https://arxiv.org/abs/2402.07232)
 
