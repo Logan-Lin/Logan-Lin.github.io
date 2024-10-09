@@ -3,7 +3,7 @@ title: Yan Lin
 ---
 ![[banner.webp]]
 
-> **Email:** lyan@cs.aau.dk, scholar@yanlincs.com <br>
+> **Email:** lyan@cs.aau.dk <br>
 > **Institutions:** Department of Computer Science, Aalborg University <br>
 > **Position:** Postdoc <br>
 > **Address:** Selma Lagerlöfs Vej 300, 9000 Aalborg, Denmark
