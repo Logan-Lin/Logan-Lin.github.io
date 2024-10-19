@@ -3,10 +3,11 @@ title: Yan Lin
 ---
 ![[banner.webp]]
 
-> **Email:** lyan@cs.aau.dk <br>
-> **Institutions:** Department of Computer Science, Aalborg University <br>
-> **Position:** Postdoc <br>
-> **Address:** Selma Lagerlöfs Vej 300, 9000 Aalborg, Denmark
+> [!info] Bio
+> - **Email:** lyan@cs.aau.dk
+> - **Institutions:** Department of Computer Science, Aalborg University
+> - **Position:** Postdoc
+> - **Address:** Selma Lagerlöfs Vej 300, 9000 Aalborg, Denmark
 
 I am currently a postdoctoral researcher in the Department of Computer Science at Aalborg University. I received my PhD and Bachelor's degrees from Beijing Jiaotong University, China.
 
@@ -61,7 +62,7 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Conference: SIGMOD, 2024, 1(3), Article No. 217.
 
 [[Mobility-LLM]]: Learning Visiting Intentions and Travel Preference from Human Mobility Data with Large Language Models.
-- Authors: Letian Gong[^Eq], **Yan Lin**[^Eq], Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
+- Authors: Letian Gong\*, **Yan Lin**\*, Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
 - Conference: NeurIPS, 2024.
 
 [[CACSR]]: Contrastive Pre-training with Adversarial Perturbations for Check-In Sequence Representation Learning. [Paper](https://ojs.aaai.org/index.php/AAAI/article/view/25546), [Code](https://github.com/LetianGong/CACSR)
@@ -98,7 +99,8 @@ I am currently a postdoctoral researcher in the Department of Computer Science a
 - Authors: Tonglong Wei, Youfang Lin, Shengnan Guo, **Yan Lin**, Yiheng Huang, Chenyang Xiang, Yuqing Bai, Menglu Ya, Huaiyu Wan
 - Journal: IEEE TKDE, DOI: 10.1109/TKDE.2024.3460051, 2024.
 
-[^Eq]: Equal contribution.
+> [!note] Notes
+> \* Authors contribute equally.
 
 ---
 ## Selected Projects 

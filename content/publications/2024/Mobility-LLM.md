@@ -1,11 +1,12 @@
 > Topic: [[Spatiotemporal Data Mining]]
 
 Mobility-LLM: Learning Visiting Intentions and Travel Preference from Human Mobility Data with Large Language Models.
-- Authors: Letian Gong[^Eq], **Yan Lin**[^Eq], Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
+- Authors: Letian Gong\*, **Yan Lin**\*, Xinyue Zhang, Yiwen Lu, Xuedi Han, Yichen Liu, Shengnan Guo, Youfang Lin, Huaiyu Wan
 - Conference: NeurIPS, 2024.
-
-[^Eq]: Equal contribution.
 
 ![[mobility-llm.webp]]
 
 Location-based services (LBS) have accumulated extensive human mobility data on diverse behaviors through check-in sequences. These sequences offer valuable insights into users’ intentions and preferences. Yet, existing models analyzing check-in sequences fail to consider the semantics contained in these sequences, which closely reflect human visiting intentions and travel preferences, leading to an incomplete comprehension. Drawing inspiration from the exceptional semantic understanding and contextual information processing capabilities of large language models (LLMs) across various domains, we present Mobility-LLM, a novel framework that leverages LLMs to analyze check-in sequences for multiple tasks. Since LLMs cannot directly interpret check-ins, we reprogram these sequences to help LLMs comprehensively understand the semantics of human visiting intentions and travel preferences. Specifically, we introduce a visiting intention memory network (VIMN) to capture the visiting intentions at each record, along with a shared pool of human travel preference prompts (HTPP) to guide the LLM in understanding users’ travel preferences. These components enhance the model’s ability to extract and leverage semantic information from human mobility data effectively. Extensive experiments on four benchmark datasets and three downstream tasks demonstrate that our approach significantly outperforms existing models, underscoring the effectiveness of Mobility-LLM in advancing our understanding of human mobility data within LBS contexts.
+
+> [!note] Notes
+> \* Authors contribute equally.
